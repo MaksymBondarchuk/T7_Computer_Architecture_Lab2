@@ -14,7 +14,7 @@ int main(int argc, char **argv) {
     auto begin = high_resolution_clock::now();
 
     string encodeOrDecode = argv[1];
-    const int runsNumber = 1000000;
+    const int runsNumber = 10;
 
     if (encodeOrDecode == "encode")
         d.CodeBig("12345", true, runsNumber);    // Encode

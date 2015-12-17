@@ -3,6 +3,7 @@
     <words>
       <w>gmon</w>
       <w>gprof</w>
+      <w>valgrind</w>
     </words>
   </dictionary>
 </component>
