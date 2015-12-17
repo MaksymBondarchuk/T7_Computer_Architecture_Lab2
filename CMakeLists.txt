@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.3)
 project(T7_Computer_Architecture_Lab1)
 
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11 -lboost_unit_test_framework")
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++14 -lboost_unit_test_framework")
 
 FIND_PACKAGE(Boost COMPONENTS unit_test_framework REQUIRED)
 INCLUDE_DIRECTORIES(${Boost_INCLUDE_DIR})
