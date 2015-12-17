@@ -1,4 +1,4 @@
-GAS LISTING /tmp/ccvj55Kg.s 			page 1
+GAS LISTING /tmp/ccXI0aRP.s 			page 1
 
 
    1              		.file	"main.cpp"
@@ -58,7 +58,7 @@ GAS LISTING /tmp/ccvj55Kg.s 			page 1
   41:/usr/include/c++/5/chrono **** #include <ctime>
   42:/usr/include/c++/5/chrono **** #include <bits/parse_numbers.h> // for literals support.
   43:/usr/include/c++/5/chrono **** 
-GAS LISTING /tmp/ccvj55Kg.s 			page 2
+GAS LISTING /tmp/ccXI0aRP.s 			page 2
 
 
   44:/usr/include/c++/5/chrono **** #ifdef _GLIBCXX_USE_C99_STDINT_TR1
@@ -118,7 +118,7 @@ GAS LISTING /tmp/ccvj55Kg.s 			page 1
   98:/usr/include/c++/5/chrono ****     { };
   99:/usr/include/c++/5/chrono **** 
  100:/usr/include/c++/5/chrono ****   // 20.11.4.3 specialization of common_type (for time_point, sfinae-friendly)
-GAS LISTING /tmp/ccvj55Kg.s 			page 3
+GAS LISTING /tmp/ccXI0aRP.s 			page 3
 
 
  101:/usr/include/c++/5/chrono ****   
@@ -178,7 +178,7 @@ GAS LISTING /tmp/ccvj55Kg.s 			page 1
  155:/usr/include/c++/5/chrono ****       struct __duration_cast_impl<_ToDur, _CF, _CR, true, false>
  156:/usr/include/c++/5/chrono ****       {
  157:/usr/include/c++/5/chrono **** 	template<typename _Rep, typename _Period>
-GAS LISTING /tmp/ccvj55Kg.s 			page 4
+GAS LISTING /tmp/ccXI0aRP.s 			page 4
 
 
  158:/usr/include/c++/5/chrono **** 	  static constexpr _ToDur
@@ -238,7 +238,7 @@ GAS LISTING /tmp/ccvj55Kg.s 			page 1
  212:/usr/include/c++/5/chrono ****     /// duration_values
  213:/usr/include/c++/5/chrono ****     template<typename _Rep>
  214:/usr/include/c++/5/chrono ****       struct duration_values
-GAS LISTING /tmp/ccvj55Kg.s 			page 5
+GAS LISTING /tmp/ccXI0aRP.s 			page 5
 
 
  215:/usr/include/c++/5/chrono ****       {
@@ -298,7 +298,7 @@ GAS LISTING /tmp/ccvj55Kg.s 			page 1
   23 0001 4889E5   		movq	%rsp, %rbp
   24              		.cfi_def_cfa_register 6
   25 0004 48897DF8 		movq	%rdi, -8(%rbp)
-GAS LISTING /tmp/ccvj55Kg.s 			page 6
+GAS LISTING /tmp/ccXI0aRP.s 			page 6
 
 
   26 0008 488975F0 		movq	%rsi, -16(%rbp)
@@ -358,7 +358,7 @@ GAS LISTING /tmp/ccvj55Kg.s 			page 1
   68              	_ZNKSt6chrono10time_pointINS_3_V212system_clockENS_8durationIlSt5ratioILl1ELl1000000000EEEEE16time_
   69              	.LFB1947:
  280:/usr/include/c++/5/chrono **** 
-GAS LISTING /tmp/ccvj55Kg.s 			page 7
+GAS LISTING /tmp/ccXI0aRP.s 			page 7
 
 
  281:/usr/include/c++/5/chrono **** 	// 20.11.5.3 arithmetic
@@ -418,7 +418,7 @@ GAS LISTING /tmp/ccvj55Kg.s 			page 1
  335:/usr/include/c++/5/chrono **** 	{
  336:/usr/include/c++/5/chrono **** 	  __r /= __rhs;
  337:/usr/include/c++/5/chrono **** 	  return *this;
-GAS LISTING /tmp/ccvj55Kg.s 			page 8
+GAS LISTING /tmp/ccXI0aRP.s 			page 8
 
 
  338:/usr/include/c++/5/chrono **** 	}
@@ -478,7 +478,7 @@ GAS LISTING /tmp/ccvj55Kg.s 			page 1
  392:/usr/include/c++/5/chrono **** 				     duration<_Rep2, _Period2>>::type
  393:/usr/include/c++/5/chrono ****       operator-(const duration<_Rep1, _Period1>& __lhs,
  394:/usr/include/c++/5/chrono **** 		const duration<_Rep2, _Period2>& __rhs)
-GAS LISTING /tmp/ccvj55Kg.s 			page 9
+GAS LISTING /tmp/ccXI0aRP.s 			page 9
 
 
  395:/usr/include/c++/5/chrono ****       {
@@ -538,7 +538,7 @@ GAS LISTING /tmp/ccvj55Kg.s 			page 1
  449:/usr/include/c++/5/chrono ****     // DR 934.
  450:/usr/include/c++/5/chrono ****     template<typename _Rep1, typename _Period, typename _Rep2>
  451:/usr/include/c++/5/chrono ****       constexpr duration<typename __common_rep_type<_Rep1, typename
-GAS LISTING /tmp/ccvj55Kg.s 			page 10
+GAS LISTING /tmp/ccXI0aRP.s 			page 10
 
 
  452:/usr/include/c++/5/chrono **** 	enable_if<!__is_duration<_Rep2>::value, _Rep2>::type>::type, _Period>
@@ -598,7 +598,7 @@ GAS LISTING /tmp/ccvj55Kg.s 			page 1
  506:/usr/include/c++/5/chrono **** 	     typename _Rep2, typename _Period2>
  507:/usr/include/c++/5/chrono ****       constexpr bool
  508:/usr/include/c++/5/chrono ****       operator<=(const duration<_Rep1, _Period1>& __lhs,
-GAS LISTING /tmp/ccvj55Kg.s 			page 11
+GAS LISTING /tmp/ccXI0aRP.s 			page 11
 
 
  509:/usr/include/c++/5/chrono **** 		 const duration<_Rep2, _Period2>& __rhs)
@@ -658,7 +658,7 @@ GAS LISTING /tmp/ccvj55Kg.s 			page 1
  563:/usr/include/c++/5/chrono **** 	  : __d(__t.time_since_epoch())
  564:/usr/include/c++/5/chrono **** 	  { }
  565:/usr/include/c++/5/chrono **** 
-GAS LISTING /tmp/ccvj55Kg.s 			page 12
+GAS LISTING /tmp/ccXI0aRP.s 			page 12
 
 
  566:/usr/include/c++/5/chrono **** 	// observer
@@ -718,7 +718,7 @@ GAS LISTING /tmp/ccvj55Kg.s 			page 1
  108              	.LBE3:
  109 0018 90       		nop
  110 0019 C9       		leave
-GAS LISTING /tmp/ccvj55Kg.s 			page 13
+GAS LISTING /tmp/ccXI0aRP.s 			page 13
 
 
  111              		.cfi_def_cfa 7, 8
@@ -778,7 +778,7 @@ GAS LISTING /tmp/ccvj55Kg.s 			page 1
  160 0069 E8000000 		call	_ZNSt6chrono8durationIlSt5ratioILl1ELl1000000000EEEC1IlvEERKT_
  160      00
  161 006e 488B45D0 		movq	-48(%rbp), %rax
-GAS LISTING /tmp/ccvj55Kg.s 			page 14
+GAS LISTING /tmp/ccXI0aRP.s 			page 14
 
 
  400:/usr/include/c++/5/chrono **** 
@@ -838,7 +838,7 @@ GAS LISTING /tmp/ccvj55Kg.s 			page 1
  601:/usr/include/c++/5/chrono ****       constexpr typename enable_if<__is_duration<_ToDur>::value,
  602:/usr/include/c++/5/chrono **** 				   time_point<_Clock, _ToDur>>::type
  603:/usr/include/c++/5/chrono ****       time_point_cast(const time_point<_Clock, _Dur>& __t)
-GAS LISTING /tmp/ccvj55Kg.s 			page 15
+GAS LISTING /tmp/ccXI0aRP.s 			page 15
 
 
  604:/usr/include/c++/5/chrono ****       {
@@ -898,7 +898,7 @@ GAS LISTING /tmp/ccvj55Kg.s 			page 1
  190 0004 4883EC30 		subq	$48, %rsp
  191 0008 48897DD8 		movq	%rdi, -40(%rbp)
  192 000c 488975D0 		movq	%rsi, -48(%rbp)
-GAS LISTING /tmp/ccvj55Kg.s 			page 16
+GAS LISTING /tmp/ccXI0aRP.s 			page 16
 
 
  193              		.loc 1 650 0
@@ -958,7 +958,7 @@ GAS LISTING /tmp/ccvj55Kg.s 			page 1
  147:/usr/include/c++/5/chrono **** 	  {
  238              		.loc 1 147 0
  239 000c 64488B04 		movq	%fs:40, %rax
-GAS LISTING /tmp/ccvj55Kg.s 			page 17
+GAS LISTING /tmp/ccXI0aRP.s 			page 17
 
 
  239      25280000 
@@ -1018,7 +1018,7 @@ GAS LISTING /tmp/ccvj55Kg.s 			page 1
  283              		.loc 1 204 0
  284 0018 C9       		leave
  285              		.cfi_def_cfa 7, 8
-GAS LISTING /tmp/ccvj55Kg.s 			page 18
+GAS LISTING /tmp/ccXI0aRP.s 			page 18
 
 
  286 0019 C3       		ret
@@ -1029,26 +1029,24 @@ GAS LISTING /tmp/ccvj55Kg.s 			page 1
  292 0001 656E636F 		.string	"encode"
  292      646500
  293              	.LC1:
- 294 0008 4578616D 		.string	"Example text"
- 294      706C6520 
- 294      74657874 
- 294      00
+ 294 0008 31323334 		.string	"12345"
+ 294      3500
  295              	.LC2:
- 296 0015 6465636F 		.string	"decode"
+ 296 000e 6465636F 		.string	"decode"
  296      646500
- 297 001c 00000000 		.align 8
+ 297 0015 000000   		.align 8
  298              	.LC3:
- 299 0020 2D2E2E2E 		.string	"-...---.-.-.---...-.---...---.---...-.---.---.-...-.---.-.-...-.......---...-...---.-.-.-
- 299      2D2D2D2E 
- 299      2D2E2D2E 
- 299      2D2D2D2E 
- 299      2E2E2D2E 
+ 299 0018 2D2E2D2D 		.string	"-.---.---.---.---...-.-.---.---.---...-.-.-.---.---...-.-.-.-.---...-.-.-.-.-"
+ 299      2D2E2D2D 
+ 299      2D2E2D2D 
+ 299      2D2E2D2D 
+ 299      2D2E2E2E 
  300              	.LC5:
- 301 0082 576F726B 		.string	"Worked for "
+ 301 0066 576F726B 		.string	"Worked for "
  301      65642066 
  301      6F722000 
  302              	.LC6:
- 303 008e 207300   		.string	" s"
+ 303 0072 207300   		.string	" s"
  304              		.text
  305              		.globl	main
  307              	main:
@@ -1078,11 +1076,11 @@ GAS LISTING /tmp/ccvj55Kg.s 			page 1
  322      FFFF
  323 0012 4889B500 		movq	%rsi, -256(%rbp)
  323      FFFFFF
-GAS LISTING /tmp/ccvj55Kg.s 			page 19
-
-
  324              		.loc 3 7 0
  325 0019 64488B04 		movq	%fs:40, %rax
+GAS LISTING /tmp/ccXI0aRP.s 			page 19
+
+
  325      25280000 
  325      00
  326 0022 488945E8 		movq	%rax, -24(%rbp)
@@ -1138,21 +1136,21 @@ GAS LISTING /tmp/ccvj55Kg.s 			page 1
  356      00
  357              	.LEHE1:
  358              		.loc 3 15 0 is_stmt 0 discriminator 1
-GAS LISTING /tmp/ccvj55Kg.s 			page 20
-
-
  359 0089 488D8550 		leaq	-176(%rbp), %rax
  359      FFFFFF
+GAS LISTING /tmp/ccXI0aRP.s 			page 20
+
+
  360 0090 4889C7   		movq	%rax, %rdi
  361 0093 E8000000 		call	_ZNSaIcED1Ev
  361      00
-  16:main.cpp      ****     const int runsNumber = 1000000;
+  16:main.cpp      ****     const int runsNumber = 1000;
  362              		.loc 3 16 0 is_stmt 1 discriminator 1
- 363 0098 C7851CFF 		movl	$1000000, -228(%rbp)
- 363      FFFF4042 
- 363      0F00
+ 363 0098 C7851CFF 		movl	$1000, -228(%rbp)
+ 363      FFFFE803 
+ 363      0000
   17:main.cpp      **** 
-  18:main.cpp      ****     if (encodeOrDecode == "encode")
+  18:main.cpp      ****     if (encodeOrDecode == "Encode")
  364              		.loc 3 18 0 discriminator 1
  365 00a2 488D4580 		leaq	-128(%rbp), %rax
  366 00a6 BE000000 		movl	$.LC0, %esi
@@ -1164,7 +1162,7 @@ GAS LISTING /tmp/ccvj55Kg.s 			page 1
  370              	.LEHE2:
  371 00b3 84C0     		testb	%al, %al
  372 00b5 7461     		je	.L21
-  19:main.cpp      ****         d.codeBig("Example text", true, runsNumber);    // Encode
+  19:main.cpp      ****         d.codeBig("12345", true, runsNumber);    // Encode
  373              		.loc 3 19 0
  374 00b7 488D8550 		leaq	-176(%rbp), %rax
  374      FFFFFF
@@ -1185,7 +1183,7 @@ GAS LISTING /tmp/ccvj55Kg.s 			page 1
  385 00de 488D75A0 		leaq	-96(%rbp), %rsi
  386 00e2 488D8560 		leaq	-160(%rbp), %rax
  386      FFFFFF
- 387 00e9 B940420F 		movl	$1000000, %ecx
+ 387 00e9 B9E80300 		movl	$1000, %ecx
  387      00
  388 00ee BA010000 		movl	$1, %edx
  388      00
@@ -1198,11 +1196,11 @@ GAS LISTING /tmp/ccvj55Kg.s 			page 1
  394 00fb 488D45A0 		leaq	-96(%rbp), %rax
  395 00ff 4889C7   		movq	%rax, %rdi
  396 0102 E8000000 		call	_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEED1Ev
-GAS LISTING /tmp/ccvj55Kg.s 			page 21
-
-
  396      00
  397 0107 488D8550 		leaq	-176(%rbp), %rax
+GAS LISTING /tmp/ccXI0aRP.s 			page 21
+
+
  397      FFFFFF
  398 010e 4889C7   		movq	%rax, %rdi
  399 0111 E8000000 		call	_ZNSaIcED1Ev
@@ -1221,7 +1219,7 @@ GAS LISTING /tmp/ccvj55Kg.s 			page 1
  408              	.LEHE5:
  409 0129 84C0     		testb	%al, %al
  410 012b 745F     		je	.L22
-  21:main.cpp      ****         d.codeBig("-...---.-.-.---...-.---...---.---...-.---.---.-...-.---.-.-...-.......---...-...
+  21:main.cpp      ****         d.codeBig("-.---.---.---.---...-.-.---.---.---...-.-.-.---.---...-.-.-.-.---...-.-.-.-.-", 
  411              		.loc 3 21 0
  412 012d 488D8550 		leaq	-176(%rbp), %rax
  412      FFFFFF
@@ -1242,7 +1240,7 @@ GAS LISTING /tmp/ccvj55Kg.s 			page 1
  423 0154 488D75C0 		leaq	-64(%rbp), %rsi
  424 0158 488D8560 		leaq	-160(%rbp), %rax
  424      FFFFFF
- 425 015f B940420F 		movl	$1000000, %ecx
+ 425 015f B9E80300 		movl	$1000, %ecx
  425      00
  426 0164 BA000000 		movl	$0, %edx
  426      00
@@ -1258,11 +1256,11 @@ GAS LISTING /tmp/ccvj55Kg.s 			page 1
  434      00
  435 017d 488D8550 		leaq	-176(%rbp), %rax
  435      FFFFFF
-GAS LISTING /tmp/ccvj55Kg.s 			page 22
-
-
  436 0184 4889C7   		movq	%rax, %rdi
  437 0187 E8000000 		call	_ZNSaIcED1Ev
+GAS LISTING /tmp/ccXI0aRP.s 			page 22
+
+
  437      00
  438              	.L22:
   22:main.cpp      **** 
@@ -1318,11 +1316,11 @@ GAS LISTING /tmp/ccvj55Kg.s 			page 1
  467      FFFFFF
  468 0213 488985F8 		movq	%rax, -264(%rbp)
  468      FEFFFF
-GAS LISTING /tmp/ccvj55Kg.s 			page 23
-
-
  469 021a F20F1085 		movsd	-264(%rbp), %xmm0
  469      F8FEFFFF 
+GAS LISTING /tmp/ccXI0aRP.s 			page 23
+
+
  470 0222 4889D7   		movq	%rdx, %rdi
  471 0225 E8000000 		call	_ZNSolsEd
  471      00
@@ -1345,7 +1343,7 @@ GAS LISTING /tmp/ccvj55Kg.s 			page 1
  481              		.loc 3 28 0 is_stmt 1
  482 0244 BB000000 		movl	$0, %ebx
  482      00
-  15:main.cpp      ****     const int runsNumber = 1000000;
+  15:main.cpp      ****     const int runsNumber = 1000;
  483              		.loc 3 15 0
  484 0249 488D4580 		leaq	-128(%rbp), %rax
  485 024d 4889C7   		movq	%rax, %rdi
@@ -1378,12 +1376,12 @@ GAS LISTING /tmp/ccvj55Kg.s 			page 1
  502 028b E8000000 		call	_ZNSaIcED1Ev
  502      00
  503 0290 EB59     		jmp	.L25
-GAS LISTING /tmp/ccvj55Kg.s 			page 24
-
-
  504              	.L35:
  505 0292 4889C3   		movq	%rax, %rbx
-  19:main.cpp      ****         d.codeBig("Example text", true, runsNumber);    // Encode
+GAS LISTING /tmp/ccXI0aRP.s 			page 24
+
+
+  19:main.cpp      ****         d.codeBig("12345", true, runsNumber);    // Encode
  506              		.loc 3 19 0
  507 0295 488D45A0 		leaq	-96(%rbp), %rax
  508 0299 4889C7   		movq	%rax, %rdi
@@ -1393,7 +1391,7 @@ GAS LISTING /tmp/ccvj55Kg.s 			page 1
  511              	.L34:
  512 02a3 4889C3   		movq	%rax, %rbx
  513              	.L27:
-  19:main.cpp      ****         d.codeBig("Example text", true, runsNumber);    // Encode
+  19:main.cpp      ****         d.codeBig("12345", true, runsNumber);    // Encode
  514              		.loc 3 19 0 is_stmt 0 discriminator 1
  515 02a6 488D8550 		leaq	-176(%rbp), %rax
  515      FFFFFF
@@ -1403,7 +1401,7 @@ GAS LISTING /tmp/ccvj55Kg.s 			page 1
  518 02b5 EB28     		jmp	.L28
  519              	.L37:
  520 02b7 4889C3   		movq	%rax, %rbx
-  21:main.cpp      ****         d.codeBig("-...---.-.-.---...-.---...---.---...-.---.---.-...-.---.-.-...-.......---...-...
+  21:main.cpp      ****         d.codeBig("-.---.---.---.---...-.-.---.---.---...-.-.-.---.---...-.-.-.-.---...-.-.-.-.-", 
  521              		.loc 3 21 0 is_stmt 1
  522 02ba 488D45C0 		leaq	-64(%rbp), %rax
  523 02be 4889C7   		movq	%rax, %rdi
@@ -1413,7 +1411,7 @@ GAS LISTING /tmp/ccvj55Kg.s 			page 1
  526              	.L36:
  527 02c8 4889C3   		movq	%rax, %rbx
  528              	.L30:
-  21:main.cpp      ****         d.codeBig("-...---.-.-.---...-.---...---.---...-.---.---.-...-.---.-.-...-.......---...-...
+  21:main.cpp      ****         d.CodeBig("-.---.---.---.---...-.-.---.---.---...-.-.-.---.---...-.-.-.-.---...-.-.-.-.-",
  529              		.loc 3 21 0 is_stmt 0 discriminator 1
  530 02cb 488D8550 		leaq	-176(%rbp), %rax
  530      FFFFFF
@@ -1438,11 +1436,11 @@ GAS LISTING /tmp/ccvj55Kg.s 			page 1
  544 02f2 4889C7   		movq	%rax, %rdi
  545 02f5 E8000000 		call	_ZN7DecoderD1Ev
  545      00
-GAS LISTING /tmp/ccvj55Kg.s 			page 25
-
-
  546 02fa 4889D8   		movq	%rbx, %rax
  547 02fd 4889C7   		movq	%rax, %rdi
+GAS LISTING /tmp/ccXI0aRP.s 			page 25
+
+
  548              	.LEHB9:
  549 0300 E8000000 		call	_Unwind_Resume
  549      00
@@ -1498,11 +1496,11 @@ GAS LISTING /tmp/ccvj55Kg.s 			page 1
  597 002b 00       		.uleb128 0
  598 002c EC02     		.uleb128 .LEHB7-.LFB1965
  599 002e 05       		.uleb128 .LEHE7-.LEHB7
-GAS LISTING /tmp/ccvj55Kg.s 			page 26
-
-
  600 002f B705     		.uleb128 .L37-.LFB1965
  601 0031 00       		.uleb128 0
+GAS LISTING /tmp/ccXI0aRP.s 			page 26
+
+
  602 0032 8404     		.uleb128 .LEHB8-.LFB1965
  603 0034 40       		.uleb128 .LEHE8-.LEHB8
  604 0035 DC05     		.uleb128 .L33-.LFB1965
@@ -1558,11 +1556,11 @@ GAS LISTING /tmp/ccvj55Kg.s 			page 1
   37:/usr/include/c++/5/bits/stl_vector.h ****  *
   38:/usr/include/c++/5/bits/stl_vector.h ****  *
   39:/usr/include/c++/5/bits/stl_vector.h ****  * Copyright (c) 1996
-GAS LISTING /tmp/ccvj55Kg.s 			page 27
-
-
   40:/usr/include/c++/5/bits/stl_vector.h ****  * Silicon Graphics Computer Systems, Inc.
   41:/usr/include/c++/5/bits/stl_vector.h ****  *
+GAS LISTING /tmp/ccXI0aRP.s 			page 27
+
+
   42:/usr/include/c++/5/bits/stl_vector.h ****  * Permission to use, copy, modify, distribute and sell this software
   43:/usr/include/c++/5/bits/stl_vector.h ****  * and its documentation for any purpose is hereby granted without fee,
   44:/usr/include/c++/5/bits/stl_vector.h ****  * provided that the above copyright notice appear in all copies and
@@ -1618,11 +1616,11 @@ GAS LISTING /tmp/ccvj55Kg.s 			page 1
   94:/usr/include/c++/5/bits/stl_vector.h **** #if __cplusplus >= 201103L
   95:/usr/include/c++/5/bits/stl_vector.h **** 	_Vector_impl(_Tp_alloc_type&& __a) noexcept
   96:/usr/include/c++/5/bits/stl_vector.h **** 	: _Tp_alloc_type(std::move(__a)),
-GAS LISTING /tmp/ccvj55Kg.s 			page 28
-
-
   97:/usr/include/c++/5/bits/stl_vector.h **** 	  _M_start(), _M_finish(), _M_end_of_storage()
   98:/usr/include/c++/5/bits/stl_vector.h **** 	{ }
+GAS LISTING /tmp/ccXI0aRP.s 			page 28
+
+
   99:/usr/include/c++/5/bits/stl_vector.h **** #endif
  100:/usr/include/c++/5/bits/stl_vector.h **** 
  101:/usr/include/c++/5/bits/stl_vector.h **** 	void _M_swap_data(_Vector_impl& __x) _GLIBCXX_NOEXCEPT
@@ -1678,11 +1676,11 @@ GAS LISTING /tmp/ccvj55Kg.s 			page 1
  151:/usr/include/c++/5/bits/stl_vector.h **** 	else
  152:/usr/include/c++/5/bits/stl_vector.h **** 	  {
  153:/usr/include/c++/5/bits/stl_vector.h **** 	    size_t __n = __x._M_impl._M_finish - __x._M_impl._M_start;
-GAS LISTING /tmp/ccvj55Kg.s 			page 29
-
-
  154:/usr/include/c++/5/bits/stl_vector.h **** 	    _M_create_storage(__n);
  155:/usr/include/c++/5/bits/stl_vector.h **** 	  }
+GAS LISTING /tmp/ccXI0aRP.s 			page 29
+
+
  156:/usr/include/c++/5/bits/stl_vector.h ****       }
  157:/usr/include/c++/5/bits/stl_vector.h **** #endif
  158:/usr/include/c++/5/bits/stl_vector.h **** 
@@ -1738,11 +1736,11 @@ GAS LISTING /tmp/ccvj55Kg.s 			page 1
  208:/usr/include/c++/5/bits/stl_vector.h ****    *  C-style array, it offers fast and efficient access to individual
  209:/usr/include/c++/5/bits/stl_vector.h ****    *  elements in any order and saves the user from worrying about
  210:/usr/include/c++/5/bits/stl_vector.h ****    *  memory and size allocation.  Subscripting ( @c [] ) access is
-GAS LISTING /tmp/ccvj55Kg.s 			page 30
-
-
  211:/usr/include/c++/5/bits/stl_vector.h ****    *  also provided as with C-style arrays.
  212:/usr/include/c++/5/bits/stl_vector.h ****   */
+GAS LISTING /tmp/ccXI0aRP.s 			page 30
+
+
  213:/usr/include/c++/5/bits/stl_vector.h ****   template<typename _Tp, typename _Alloc = std::allocator<_Tp> >
  214:/usr/include/c++/5/bits/stl_vector.h ****     class vector : protected _Vector_base<_Tp, _Alloc>
  215:/usr/include/c++/5/bits/stl_vector.h ****     {
@@ -1798,11 +1796,11 @@ GAS LISTING /tmp/ccvj55Kg.s 			page 1
  265:/usr/include/c++/5/bits/stl_vector.h ****       : _Base(__a) { }
  266:/usr/include/c++/5/bits/stl_vector.h **** 
  267:/usr/include/c++/5/bits/stl_vector.h **** #if __cplusplus >= 201103L
-GAS LISTING /tmp/ccvj55Kg.s 			page 31
-
-
  268:/usr/include/c++/5/bits/stl_vector.h ****       /**
  269:/usr/include/c++/5/bits/stl_vector.h ****        *  @brief  Creates a %vector with default constructed elements.
+GAS LISTING /tmp/ccXI0aRP.s 			page 31
+
+
  270:/usr/include/c++/5/bits/stl_vector.h ****        *  @param  __n  The number of elements to initially create.
  271:/usr/include/c++/5/bits/stl_vector.h ****        *  @param  __a  An allocator.
  272:/usr/include/c++/5/bits/stl_vector.h ****        *
@@ -1858,11 +1856,11 @@ GAS LISTING /tmp/ccvj55Kg.s 			page 1
  322:/usr/include/c++/5/bits/stl_vector.h **** 	  std::__uninitialized_copy_a(__x.begin(), __x.end(),
  323:/usr/include/c++/5/bits/stl_vector.h **** 				      this->_M_impl._M_start,
  324:/usr/include/c++/5/bits/stl_vector.h **** 				      _M_get_Tp_allocator());
-GAS LISTING /tmp/ccvj55Kg.s 			page 32
-
-
  325:/usr/include/c++/5/bits/stl_vector.h ****       }
  326:/usr/include/c++/5/bits/stl_vector.h **** 
+GAS LISTING /tmp/ccXI0aRP.s 			page 32
+
+
  327:/usr/include/c++/5/bits/stl_vector.h **** #if __cplusplus >= 201103L
  328:/usr/include/c++/5/bits/stl_vector.h ****       /**
  329:/usr/include/c++/5/bits/stl_vector.h ****        *  @brief  %Vector move constructor.
@@ -1918,11 +1916,11 @@ GAS LISTING /tmp/ccvj55Kg.s 			page 1
  379:/usr/include/c++/5/bits/stl_vector.h ****       }
  380:/usr/include/c++/5/bits/stl_vector.h **** #endif
  381:/usr/include/c++/5/bits/stl_vector.h **** 
-GAS LISTING /tmp/ccvj55Kg.s 			page 33
-
-
  382:/usr/include/c++/5/bits/stl_vector.h ****       /**
  383:/usr/include/c++/5/bits/stl_vector.h ****        *  @brief  Builds a %vector from a range.
+GAS LISTING /tmp/ccXI0aRP.s 			page 33
+
+
  384:/usr/include/c++/5/bits/stl_vector.h ****        *  @param  __first  An input iterator.
  385:/usr/include/c++/5/bits/stl_vector.h ****        *  @param  __last  An input iterator.
  386:/usr/include/c++/5/bits/stl_vector.h ****        *  @param  __a  An allocator.
@@ -1978,11 +1976,11 @@ GAS LISTING /tmp/ccvj55Kg.s 			page 1
  424:/usr/include/c++/5/bits/stl_vector.h ****       { std::_Destroy(this->_M_impl._M_start, this->_M_impl._M_finish,
  425:/usr/include/c++/5/bits/stl_vector.h **** 		      _M_get_Tp_allocator()); }
  632              		.loc 4 425 0
-GAS LISTING /tmp/ccvj55Kg.s 			page 34
-
-
  633 000c 488B45F8 		movq	-8(%rbp), %rax
  634 0010 4889C7   		movq	%rax, %rdi
+GAS LISTING /tmp/ccXI0aRP.s 			page 34
+
+
  635 0013 E8000000 		call	_ZNSt12_Vector_baseIN7Decoder12morse_symbolESaIS1_EE19_M_get_Tp_allocatorEv
  635      00
  636 0018 4889C2   		movq	%rax, %rdx
@@ -2038,11 +2036,11 @@ GAS LISTING /tmp/ccvj55Kg.s 			page 1
   12:/usr/include/c++/5/bits/basic_string.h **** // but WITHOUT ANY WARRANTY; without even the implied warranty of
   13:/usr/include/c++/5/bits/basic_string.h **** // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
   14:/usr/include/c++/5/bits/basic_string.h **** // GNU General Public License for more details.
-GAS LISTING /tmp/ccvj55Kg.s 			page 35
-
-
   15:/usr/include/c++/5/bits/basic_string.h **** 
   16:/usr/include/c++/5/bits/basic_string.h **** // Under Section 7 of GPL version 3, you are granted additional
+GAS LISTING /tmp/ccXI0aRP.s 			page 35
+
+
   17:/usr/include/c++/5/bits/basic_string.h **** // permissions described in the GCC Runtime Library Exception, version
   18:/usr/include/c++/5/bits/basic_string.h **** // 3.1, as published by the Free Software Foundation.
   19:/usr/include/c++/5/bits/basic_string.h **** 
@@ -2098,11 +2096,11 @@ GAS LISTING /tmp/ccvj55Kg.s 			page 1
   69:/usr/include/c++/5/bits/basic_string.h ****    */
   70:/usr/include/c++/5/bits/basic_string.h ****   template<typename _CharT, typename _Traits, typename _Alloc>
   71:/usr/include/c++/5/bits/basic_string.h ****     class basic_string
-GAS LISTING /tmp/ccvj55Kg.s 			page 36
-
-
   72:/usr/include/c++/5/bits/basic_string.h ****     {
   73:/usr/include/c++/5/bits/basic_string.h ****       typedef typename __gnu_cxx::__alloc_traits<_Alloc>::template
+GAS LISTING /tmp/ccXI0aRP.s 			page 36
+
+
   74:/usr/include/c++/5/bits/basic_string.h **** 	rebind<_CharT>::other _Char_alloc_type;
   75:/usr/include/c++/5/bits/basic_string.h ****       typedef __gnu_cxx::__alloc_traits<_Char_alloc_type> _Alloc_traits;
   76:/usr/include/c++/5/bits/basic_string.h **** 
@@ -2158,11 +2156,11 @@ GAS LISTING /tmp/ccvj55Kg.s 			page 1
  126:/usr/include/c++/5/bits/basic_string.h ****       _M_data(pointer __p)
  127:/usr/include/c++/5/bits/basic_string.h ****       { _M_dataplus._M_p = __p; }
  128:/usr/include/c++/5/bits/basic_string.h **** 
-GAS LISTING /tmp/ccvj55Kg.s 			page 37
-
-
  129:/usr/include/c++/5/bits/basic_string.h ****       void
  130:/usr/include/c++/5/bits/basic_string.h ****       _M_length(size_type __length)
+GAS LISTING /tmp/ccXI0aRP.s 			page 37
+
+
  131:/usr/include/c++/5/bits/basic_string.h ****       { _M_string_length = __length; }
  132:/usr/include/c++/5/bits/basic_string.h **** 
  133:/usr/include/c++/5/bits/basic_string.h ****       pointer
@@ -2218,11 +2216,11 @@ GAS LISTING /tmp/ccvj55Kg.s 			page 1
  183:/usr/include/c++/5/bits/basic_string.h ****       void
  184:/usr/include/c++/5/bits/basic_string.h ****       _M_destroy(size_type __size) throw()
  185:/usr/include/c++/5/bits/basic_string.h ****       { _Alloc_traits::deallocate(_M_get_allocator(), _M_data(), __size + 1); }
-GAS LISTING /tmp/ccvj55Kg.s 			page 38
-
-
  186:/usr/include/c++/5/bits/basic_string.h **** 
  187:/usr/include/c++/5/bits/basic_string.h ****       // _M_construct_aux is used to implement the 21.3.1 para 15 which
+GAS LISTING /tmp/ccXI0aRP.s 			page 38
+
+
  188:/usr/include/c++/5/bits/basic_string.h ****       // requires special behaviour if _InIterator is an integral type
  189:/usr/include/c++/5/bits/basic_string.h ****       template<typename _InIterator>
  190:/usr/include/c++/5/bits/basic_string.h ****         void
@@ -2278,11 +2276,11 @@ GAS LISTING /tmp/ccvj55Kg.s 			page 1
  240:/usr/include/c++/5/bits/basic_string.h **** 
  241:/usr/include/c++/5/bits/basic_string.h ****     private:
  242:/usr/include/c++/5/bits/basic_string.h **** 
-GAS LISTING /tmp/ccvj55Kg.s 			page 39
-
-
  243:/usr/include/c++/5/bits/basic_string.h **** #ifdef _GLIBCXX_DISAMBIGUATE_REPLACE_INST
  244:/usr/include/c++/5/bits/basic_string.h ****       // The explicit instantiations in misc-inst.cc require this due to
+GAS LISTING /tmp/ccXI0aRP.s 			page 39
+
+
  245:/usr/include/c++/5/bits/basic_string.h ****       // https://gcc.gnu.org/bugzilla/show_bug.cgi?id=64063
  246:/usr/include/c++/5/bits/basic_string.h ****       template<typename _Tp, bool _Requires =
  247:/usr/include/c++/5/bits/basic_string.h **** 	       !__are_same<_Tp, _CharT*>::__value
@@ -2338,11 +2336,11 @@ GAS LISTING /tmp/ccvj55Kg.s 			page 1
  297:/usr/include/c++/5/bits/basic_string.h **** 	  traits_type::assign(*__d, *__s);
  298:/usr/include/c++/5/bits/basic_string.h **** 	else
  299:/usr/include/c++/5/bits/basic_string.h **** 	  traits_type::copy(__d, __s, __n);
-GAS LISTING /tmp/ccvj55Kg.s 			page 40
-
-
  300:/usr/include/c++/5/bits/basic_string.h ****       }
  301:/usr/include/c++/5/bits/basic_string.h **** 
+GAS LISTING /tmp/ccXI0aRP.s 			page 40
+
+
  302:/usr/include/c++/5/bits/basic_string.h ****       static void
  303:/usr/include/c++/5/bits/basic_string.h ****       _S_move(_CharT* __d, const _CharT* __s, size_type __n)
  304:/usr/include/c++/5/bits/basic_string.h ****       {
@@ -2398,11 +2396,11 @@ GAS LISTING /tmp/ccvj55Kg.s 			page 1
  354:/usr/include/c++/5/bits/basic_string.h **** 	if (__d > __gnu_cxx::__numeric_traits<int>::__max)
  355:/usr/include/c++/5/bits/basic_string.h **** 	  return __gnu_cxx::__numeric_traits<int>::__max;
  356:/usr/include/c++/5/bits/basic_string.h **** 	else if (__d < __gnu_cxx::__numeric_traits<int>::__min)
-GAS LISTING /tmp/ccvj55Kg.s 			page 41
-
-
  357:/usr/include/c++/5/bits/basic_string.h **** 	  return __gnu_cxx::__numeric_traits<int>::__min;
  358:/usr/include/c++/5/bits/basic_string.h **** 	else
+GAS LISTING /tmp/ccXI0aRP.s 			page 41
+
+
  359:/usr/include/c++/5/bits/basic_string.h **** 	  return int(__d);
  360:/usr/include/c++/5/bits/basic_string.h ****       }
  361:/usr/include/c++/5/bits/basic_string.h **** 
@@ -2458,11 +2456,11 @@ GAS LISTING /tmp/ccvj55Kg.s 			page 1
  411:/usr/include/c++/5/bits/basic_string.h ****       basic_string(const basic_string& __str, size_type __pos,
  412:/usr/include/c++/5/bits/basic_string.h **** 		   size_type __n = npos)
  413:/usr/include/c++/5/bits/basic_string.h ****       : _M_dataplus(_M_local_data())
-GAS LISTING /tmp/ccvj55Kg.s 			page 42
-
-
  414:/usr/include/c++/5/bits/basic_string.h ****       {
  415:/usr/include/c++/5/bits/basic_string.h **** 	const _CharT* __start = __str._M_data()
+GAS LISTING /tmp/ccXI0aRP.s 			page 42
+
+
  416:/usr/include/c++/5/bits/basic_string.h **** 	  + __str._M_check(__pos, "basic_string::basic_string");
  417:/usr/include/c++/5/bits/basic_string.h **** 	_M_construct(__start, __start + __str._M_limit(__pos, __n));
  418:/usr/include/c++/5/bits/basic_string.h ****       }
@@ -2518,11 +2516,11 @@ GAS LISTING /tmp/ccvj55Kg.s 			page 1
  468:/usr/include/c++/5/bits/basic_string.h **** 
  469:/usr/include/c++/5/bits/basic_string.h **** #if __cplusplus >= 201103L
  470:/usr/include/c++/5/bits/basic_string.h ****       /**
-GAS LISTING /tmp/ccvj55Kg.s 			page 43
-
-
  471:/usr/include/c++/5/bits/basic_string.h ****        *  @brief  Move construct string.
  472:/usr/include/c++/5/bits/basic_string.h ****        *  @param  __str  Source string.
+GAS LISTING /tmp/ccXI0aRP.s 			page 43
+
+
  473:/usr/include/c++/5/bits/basic_string.h ****        *
  474:/usr/include/c++/5/bits/basic_string.h ****        *  The newly-created string contains the exact contents of @a __str.
  475:/usr/include/c++/5/bits/basic_string.h ****        *  @a __str is a valid, but unspecified string.
@@ -2578,11 +2576,11 @@ GAS LISTING /tmp/ccvj55Kg.s 			page 1
  525:/usr/include/c++/5/bits/basic_string.h ****        *  @param  __beg  Start of range.
  526:/usr/include/c++/5/bits/basic_string.h ****        *  @param  __end  End of range.
  527:/usr/include/c++/5/bits/basic_string.h ****        *  @param  __a  Allocator to use (default is default allocator).
-GAS LISTING /tmp/ccvj55Kg.s 			page 44
-
-
  528:/usr/include/c++/5/bits/basic_string.h ****        */
  529:/usr/include/c++/5/bits/basic_string.h **** #if __cplusplus >= 201103L
+GAS LISTING /tmp/ccXI0aRP.s 			page 44
+
+
  530:/usr/include/c++/5/bits/basic_string.h ****       template<typename _InputIterator,
  531:/usr/include/c++/5/bits/basic_string.h **** 	       typename = std::_RequireInputIter<_InputIterator>>
  532:/usr/include/c++/5/bits/basic_string.h **** #else
@@ -2638,11 +2636,11 @@ GAS LISTING /tmp/ccvj55Kg.s 			page 1
  582:/usr/include/c++/5/bits/basic_string.h ****        *  @a str is a valid, but unspecified string.
  583:/usr/include/c++/5/bits/basic_string.h ****        **/
  584:/usr/include/c++/5/bits/basic_string.h ****       // PR 58265, this should be noexcept.
-GAS LISTING /tmp/ccvj55Kg.s 			page 45
-
-
  585:/usr/include/c++/5/bits/basic_string.h ****       // _GLIBCXX_RESOLVE_LIB_DEFECTS
  586:/usr/include/c++/5/bits/basic_string.h ****       // 2063. Contradictory requirements for string move assignment
+GAS LISTING /tmp/ccXI0aRP.s 			page 45
+
+
  587:/usr/include/c++/5/bits/basic_string.h ****       basic_string&
  588:/usr/include/c++/5/bits/basic_string.h ****       operator=(basic_string&& __str)
  589:/usr/include/c++/5/bits/basic_string.h ****       {
@@ -2698,11 +2696,11 @@ GAS LISTING /tmp/ccvj55Kg.s 			page 1
  639:/usr/include/c++/5/bits/basic_string.h ****       /**
  640:/usr/include/c++/5/bits/basic_string.h ****        *  Returns a read/write reverse iterator that points to the last
  641:/usr/include/c++/5/bits/basic_string.h ****        *  character in the %string.  Iteration is done in reverse element
-GAS LISTING /tmp/ccvj55Kg.s 			page 46
-
-
  642:/usr/include/c++/5/bits/basic_string.h ****        *  order.
  643:/usr/include/c++/5/bits/basic_string.h ****        */
+GAS LISTING /tmp/ccXI0aRP.s 			page 46
+
+
  644:/usr/include/c++/5/bits/basic_string.h ****       reverse_iterator
  645:/usr/include/c++/5/bits/basic_string.h ****       rbegin() _GLIBCXX_NOEXCEPT
  646:/usr/include/c++/5/bits/basic_string.h ****       { return reverse_iterator(this->end()); }
@@ -2758,11 +2756,11 @@ GAS LISTING /tmp/ccvj55Kg.s 			page 1
  696:/usr/include/c++/5/bits/basic_string.h ****        */
  697:/usr/include/c++/5/bits/basic_string.h ****       const_reverse_iterator
  698:/usr/include/c++/5/bits/basic_string.h ****       crbegin() const noexcept
-GAS LISTING /tmp/ccvj55Kg.s 			page 47
-
-
  699:/usr/include/c++/5/bits/basic_string.h ****       { return const_reverse_iterator(this->end()); }
  700:/usr/include/c++/5/bits/basic_string.h **** 
+GAS LISTING /tmp/ccXI0aRP.s 			page 47
+
+
  701:/usr/include/c++/5/bits/basic_string.h ****       /**
  702:/usr/include/c++/5/bits/basic_string.h ****        *  Returns a read-only (constant) reverse iterator that points
  703:/usr/include/c++/5/bits/basic_string.h ****        *  to one before the first character in the %string.  Iteration
@@ -2818,11 +2816,11 @@ GAS LISTING /tmp/ccvj55Kg.s 			page 1
  753:/usr/include/c++/5/bits/basic_string.h ****       void
  754:/usr/include/c++/5/bits/basic_string.h ****       resize(size_type __n)
  755:/usr/include/c++/5/bits/basic_string.h ****       { this->resize(__n, _CharT()); }
-GAS LISTING /tmp/ccvj55Kg.s 			page 48
-
-
  756:/usr/include/c++/5/bits/basic_string.h **** 
  757:/usr/include/c++/5/bits/basic_string.h **** #if __cplusplus >= 201103L
+GAS LISTING /tmp/ccXI0aRP.s 			page 48
+
+
  758:/usr/include/c++/5/bits/basic_string.h ****       ///  A non-binding request to reduce capacity() to size().
  759:/usr/include/c++/5/bits/basic_string.h ****       void
  760:/usr/include/c++/5/bits/basic_string.h ****       shrink_to_fit() noexcept
@@ -2878,11 +2876,11 @@ GAS LISTING /tmp/ccvj55Kg.s 			page 1
  810:/usr/include/c++/5/bits/basic_string.h ****       /**
  811:/usr/include/c++/5/bits/basic_string.h ****        *  Returns true if the %string is empty.  Equivalent to 
  812:/usr/include/c++/5/bits/basic_string.h ****        *  <code>*this == ""</code>.
-GAS LISTING /tmp/ccvj55Kg.s 			page 49
-
-
  813:/usr/include/c++/5/bits/basic_string.h ****        */
  814:/usr/include/c++/5/bits/basic_string.h ****       bool
+GAS LISTING /tmp/ccXI0aRP.s 			page 49
+
+
  815:/usr/include/c++/5/bits/basic_string.h ****       empty() const _GLIBCXX_NOEXCEPT
  816:/usr/include/c++/5/bits/basic_string.h ****       { return this->size() == 0; }
  817:/usr/include/c++/5/bits/basic_string.h **** 
@@ -2938,11 +2936,11 @@ GAS LISTING /tmp/ccvj55Kg.s 			page 1
  867:/usr/include/c++/5/bits/basic_string.h ****       const_reference
  868:/usr/include/c++/5/bits/basic_string.h ****       at(size_type __n) const
  869:/usr/include/c++/5/bits/basic_string.h ****       {
-GAS LISTING /tmp/ccvj55Kg.s 			page 50
-
-
  870:/usr/include/c++/5/bits/basic_string.h **** 	if (__n >= this->size())
  871:/usr/include/c++/5/bits/basic_string.h **** 	  __throw_out_of_range_fmt(__N("basic_string::at: __n "
+GAS LISTING /tmp/ccXI0aRP.s 			page 50
+
+
  872:/usr/include/c++/5/bits/basic_string.h **** 				       "(which is %zu) >= this->size() "
  873:/usr/include/c++/5/bits/basic_string.h **** 				       "(which is %zu)"),
  874:/usr/include/c++/5/bits/basic_string.h **** 				   __n, this->size());
@@ -2998,11 +2996,11 @@ GAS LISTING /tmp/ccvj55Kg.s 			page 1
  924:/usr/include/c++/5/bits/basic_string.h ****       /**
  925:/usr/include/c++/5/bits/basic_string.h ****        *  Returns a read-only (constant) reference to the data at the
  926:/usr/include/c++/5/bits/basic_string.h ****        *  last element of the %string.
-GAS LISTING /tmp/ccvj55Kg.s 			page 51
-
-
  927:/usr/include/c++/5/bits/basic_string.h ****        */
  928:/usr/include/c++/5/bits/basic_string.h ****       const_reference
+GAS LISTING /tmp/ccXI0aRP.s 			page 51
+
+
  929:/usr/include/c++/5/bits/basic_string.h ****       back() const noexcept
  930:/usr/include/c++/5/bits/basic_string.h ****       { return operator[](this->size() - 1); }
  931:/usr/include/c++/5/bits/basic_string.h **** #endif
@@ -3058,11 +3056,11 @@ GAS LISTING /tmp/ccvj55Kg.s 			page 1
  981:/usr/include/c++/5/bits/basic_string.h ****       append(const basic_string& __str)
  982:/usr/include/c++/5/bits/basic_string.h ****       { return _M_append(__str._M_data(), __str.size()); }
  983:/usr/include/c++/5/bits/basic_string.h **** 
-GAS LISTING /tmp/ccvj55Kg.s 			page 52
-
-
  984:/usr/include/c++/5/bits/basic_string.h ****       /**
  985:/usr/include/c++/5/bits/basic_string.h ****        *  @brief  Append a substring.
+GAS LISTING /tmp/ccXI0aRP.s 			page 52
+
+
  986:/usr/include/c++/5/bits/basic_string.h ****        *  @param __str  The string to append.
  987:/usr/include/c++/5/bits/basic_string.h ****        *  @param __pos  Index of the first character of str to append.
  988:/usr/include/c++/5/bits/basic_string.h ****        *  @param __n  The number of characters to append.
@@ -3118,11 +3116,11 @@ GAS LISTING /tmp/ccvj55Kg.s 			page 1
 1038:/usr/include/c++/5/bits/basic_string.h ****        */
 1039:/usr/include/c++/5/bits/basic_string.h ****       basic_string&
 1040:/usr/include/c++/5/bits/basic_string.h ****       append(size_type __n, _CharT __c)
-GAS LISTING /tmp/ccvj55Kg.s 			page 53
-
-
 1041:/usr/include/c++/5/bits/basic_string.h ****       { return _M_replace_aux(this->size(), size_type(0), __n, __c); }
 1042:/usr/include/c++/5/bits/basic_string.h **** 
+GAS LISTING /tmp/ccXI0aRP.s 			page 53
+
+
 1043:/usr/include/c++/5/bits/basic_string.h **** #if __cplusplus >= 201103L
 1044:/usr/include/c++/5/bits/basic_string.h ****       /**
 1045:/usr/include/c++/5/bits/basic_string.h ****        *  @brief  Append an initializer_list of characters.
@@ -3178,11 +3176,11 @@ GAS LISTING /tmp/ccvj55Kg.s 			page 1
 1095:/usr/include/c++/5/bits/basic_string.h **** 	return *this;
 1096:/usr/include/c++/5/bits/basic_string.h ****       }
 1097:/usr/include/c++/5/bits/basic_string.h **** 
-GAS LISTING /tmp/ccvj55Kg.s 			page 54
-
-
 1098:/usr/include/c++/5/bits/basic_string.h **** #if __cplusplus >= 201103L
 1099:/usr/include/c++/5/bits/basic_string.h ****       /**
+GAS LISTING /tmp/ccXI0aRP.s 			page 54
+
+
 1100:/usr/include/c++/5/bits/basic_string.h ****        *  @brief  Set value to contents of another string.
 1101:/usr/include/c++/5/bits/basic_string.h ****        *  @param  __str  Source string to use.
 1102:/usr/include/c++/5/bits/basic_string.h ****        *  @return  Reference to this string.
@@ -3238,11 +3236,11 @@ GAS LISTING /tmp/ccvj55Kg.s 			page 1
 1152:/usr/include/c++/5/bits/basic_string.h ****       /**
 1153:/usr/include/c++/5/bits/basic_string.h ****        *  @brief  Set value to contents of a C string.
 1154:/usr/include/c++/5/bits/basic_string.h ****        *  @param __s  The C string to use.
-GAS LISTING /tmp/ccvj55Kg.s 			page 55
-
-
 1155:/usr/include/c++/5/bits/basic_string.h ****        *  @return  Reference to this string.
 1156:/usr/include/c++/5/bits/basic_string.h ****        *
+GAS LISTING /tmp/ccXI0aRP.s 			page 55
+
+
 1157:/usr/include/c++/5/bits/basic_string.h ****        *  This function sets the value of this string to the value of @a __s.
 1158:/usr/include/c++/5/bits/basic_string.h ****        *  The data is copied, so there is no dependence on @a __s once the
 1159:/usr/include/c++/5/bits/basic_string.h ****        *  function returns.
@@ -3298,11 +3296,11 @@ GAS LISTING /tmp/ccvj55Kg.s 			page 1
 1209:/usr/include/c++/5/bits/basic_string.h **** #endif // C++11
 1210:/usr/include/c++/5/bits/basic_string.h **** 
 1211:/usr/include/c++/5/bits/basic_string.h **** #if __cplusplus >= 201103L
-GAS LISTING /tmp/ccvj55Kg.s 			page 56
-
-
 1212:/usr/include/c++/5/bits/basic_string.h ****       /**
 1213:/usr/include/c++/5/bits/basic_string.h ****        *  @brief  Insert multiple characters.
+GAS LISTING /tmp/ccXI0aRP.s 			page 56
+
+
 1214:/usr/include/c++/5/bits/basic_string.h ****        *  @param __p  Const_iterator referencing location in string to
 1215:/usr/include/c++/5/bits/basic_string.h ****        *              insert at.
 1216:/usr/include/c++/5/bits/basic_string.h ****        *  @param __n  Number of characters to insert
@@ -3358,11 +3356,11 @@ GAS LISTING /tmp/ccvj55Kg.s 			page 1
 1266:/usr/include/c++/5/bits/basic_string.h ****        *  thrown.  The value of the string doesn't change if an error
 1267:/usr/include/c++/5/bits/basic_string.h ****        *  is thrown.
 1268:/usr/include/c++/5/bits/basic_string.h ****       */
-GAS LISTING /tmp/ccvj55Kg.s 			page 57
-
-
 1269:/usr/include/c++/5/bits/basic_string.h ****       template<class _InputIterator,
 1270:/usr/include/c++/5/bits/basic_string.h **** 	       typename = std::_RequireInputIter<_InputIterator>>
+GAS LISTING /tmp/ccXI0aRP.s 			page 57
+
+
 1271:/usr/include/c++/5/bits/basic_string.h **** 	iterator
 1272:/usr/include/c++/5/bits/basic_string.h ****         insert(const_iterator __p, _InputIterator __beg, _InputIterator __end)
 1273:/usr/include/c++/5/bits/basic_string.h ****         {
@@ -3418,11 +3416,11 @@ GAS LISTING /tmp/ccvj55Kg.s 			page 1
 1323:/usr/include/c++/5/bits/basic_string.h ****        *  change if an error is thrown.
 1324:/usr/include/c++/5/bits/basic_string.h ****       */
 1325:/usr/include/c++/5/bits/basic_string.h ****       basic_string&
-GAS LISTING /tmp/ccvj55Kg.s 			page 58
-
-
 1326:/usr/include/c++/5/bits/basic_string.h ****       insert(size_type __pos1, const basic_string& __str)
 1327:/usr/include/c++/5/bits/basic_string.h ****       { return this->replace(__pos1, size_type(0),
+GAS LISTING /tmp/ccXI0aRP.s 			page 58
+
+
 1328:/usr/include/c++/5/bits/basic_string.h **** 			     __str._M_data(), __str.size()); }
 1329:/usr/include/c++/5/bits/basic_string.h **** 
 1330:/usr/include/c++/5/bits/basic_string.h ****       /**
@@ -3478,11 +3476,11 @@ GAS LISTING /tmp/ccvj55Kg.s 			page 1
 1380:/usr/include/c++/5/bits/basic_string.h ****        *  @throw  std::length_error  If new length exceeds @c max_size().
 1381:/usr/include/c++/5/bits/basic_string.h ****        *  @throw  std::out_of_range  If @a pos is beyond the end of this
 1382:/usr/include/c++/5/bits/basic_string.h ****        *  string.
-GAS LISTING /tmp/ccvj55Kg.s 			page 59
-
-
 1383:/usr/include/c++/5/bits/basic_string.h ****        *
 1384:/usr/include/c++/5/bits/basic_string.h ****        *  Inserts the first @a n characters of @a __s starting at @a __pos.  If
+GAS LISTING /tmp/ccXI0aRP.s 			page 59
+
+
 1385:/usr/include/c++/5/bits/basic_string.h ****        *  adding characters causes the length to exceed max_size(),
 1386:/usr/include/c++/5/bits/basic_string.h ****        *  length_error is thrown.  If @a __pos is beyond end(), out_of_range is
 1387:/usr/include/c++/5/bits/basic_string.h ****        *  thrown.  The value of the string doesn't change if an error is
@@ -3538,11 +3536,11 @@ GAS LISTING /tmp/ccvj55Kg.s 			page 1
 1437:/usr/include/c++/5/bits/basic_string.h **** 	_M_replace_aux(__pos, size_type(0), size_type(1), __c);
 1438:/usr/include/c++/5/bits/basic_string.h **** 	return iterator(_M_data() + __pos);
 1439:/usr/include/c++/5/bits/basic_string.h ****       }
-GAS LISTING /tmp/ccvj55Kg.s 			page 60
-
-
 1440:/usr/include/c++/5/bits/basic_string.h **** 
 1441:/usr/include/c++/5/bits/basic_string.h ****       /**
+GAS LISTING /tmp/ccXI0aRP.s 			page 60
+
+
 1442:/usr/include/c++/5/bits/basic_string.h ****        *  @brief  Remove characters.
 1443:/usr/include/c++/5/bits/basic_string.h ****        *  @param __pos  Index of first character to remove (default 0).
 1444:/usr/include/c++/5/bits/basic_string.h ****        *  @param __n  Number of characters to remove (default remainder).
@@ -3598,11 +3596,11 @@ GAS LISTING /tmp/ccvj55Kg.s 			page 1
 1494:/usr/include/c++/5/bits/basic_string.h **** 	_GLIBCXX_DEBUG_PEDASSERT(__first >= begin() && __first <= __last
 1495:/usr/include/c++/5/bits/basic_string.h **** 				 && __last <= end());
 1496:/usr/include/c++/5/bits/basic_string.h ****         const size_type __pos = __first - begin();
-GAS LISTING /tmp/ccvj55Kg.s 			page 61
-
-
 1497:/usr/include/c++/5/bits/basic_string.h **** 	this->_M_erase(__pos, __last - __first);
 1498:/usr/include/c++/5/bits/basic_string.h **** 	return iterator(this->_M_data() + __pos);
+GAS LISTING /tmp/ccXI0aRP.s 			page 61
+
+
 1499:/usr/include/c++/5/bits/basic_string.h ****       }
 1500:/usr/include/c++/5/bits/basic_string.h **** 
 1501:/usr/include/c++/5/bits/basic_string.h **** #if __cplusplus >= 201103L
@@ -3658,11 +3656,11 @@ GAS LISTING /tmp/ccvj55Kg.s 			page 1
 1551:/usr/include/c++/5/bits/basic_string.h ****       basic_string&
 1552:/usr/include/c++/5/bits/basic_string.h ****       replace(size_type __pos1, size_type __n1, const basic_string& __str,
 1553:/usr/include/c++/5/bits/basic_string.h **** 	      size_type __pos2, size_type __n2)
-GAS LISTING /tmp/ccvj55Kg.s 			page 62
-
-
 1554:/usr/include/c++/5/bits/basic_string.h ****       { return this->replace(__pos1, __n1, __str._M_data()
 1555:/usr/include/c++/5/bits/basic_string.h **** 			     + __str._M_check(__pos2, "basic_string::replace"),
+GAS LISTING /tmp/ccXI0aRP.s 			page 62
+
+
 1556:/usr/include/c++/5/bits/basic_string.h **** 			     __str._M_limit(__pos2, __n2)); }
 1557:/usr/include/c++/5/bits/basic_string.h **** 
 1558:/usr/include/c++/5/bits/basic_string.h ****       /**
@@ -3718,11 +3716,11 @@ GAS LISTING /tmp/ccvj55Kg.s 			page 1
 1608:/usr/include/c++/5/bits/basic_string.h ****       /**
 1609:/usr/include/c++/5/bits/basic_string.h ****        *  @brief  Replace characters with multiple characters.
 1610:/usr/include/c++/5/bits/basic_string.h ****        *  @param __pos  Index of first character to replace.
-GAS LISTING /tmp/ccvj55Kg.s 			page 63
-
-
 1611:/usr/include/c++/5/bits/basic_string.h ****        *  @param __n1  Number of characters to be replaced.
 1612:/usr/include/c++/5/bits/basic_string.h ****        *  @param __n2  Number of characters to insert.
+GAS LISTING /tmp/ccXI0aRP.s 			page 63
+
+
 1613:/usr/include/c++/5/bits/basic_string.h ****        *  @param __c  Character to insert.
 1614:/usr/include/c++/5/bits/basic_string.h ****        *  @return  Reference to this string.
 1615:/usr/include/c++/5/bits/basic_string.h ****        *  @throw  std::out_of_range  If @a __pos > size().
@@ -3778,11 +3776,11 @@ GAS LISTING /tmp/ccvj55Kg.s 			page 1
 1665:/usr/include/c++/5/bits/basic_string.h **** 	      const _CharT* __s, size_type __n)
 1666:/usr/include/c++/5/bits/basic_string.h ****       {
 1667:/usr/include/c++/5/bits/basic_string.h **** 	_GLIBCXX_DEBUG_PEDASSERT(begin() <= __i1 && __i1 <= __i2
-GAS LISTING /tmp/ccvj55Kg.s 			page 64
-
-
 1668:/usr/include/c++/5/bits/basic_string.h **** 				 && __i2 <= end());
 1669:/usr/include/c++/5/bits/basic_string.h **** 	return this->replace(__i1 - begin(), __i2 - __i1, __s, __n);
+GAS LISTING /tmp/ccXI0aRP.s 			page 64
+
+
 1670:/usr/include/c++/5/bits/basic_string.h ****       }
 1671:/usr/include/c++/5/bits/basic_string.h **** 
 1672:/usr/include/c++/5/bits/basic_string.h ****       /**
@@ -3838,11 +3836,11 @@ GAS LISTING /tmp/ccvj55Kg.s 			page 1
 1722:/usr/include/c++/5/bits/basic_string.h ****        *  @throw  std::length_error  If new length exceeds @c max_size().
 1723:/usr/include/c++/5/bits/basic_string.h ****        *
 1724:/usr/include/c++/5/bits/basic_string.h ****        *  Removes the characters in the range [__i1,__i2).  In place,
-GAS LISTING /tmp/ccvj55Kg.s 			page 65
-
-
 1725:/usr/include/c++/5/bits/basic_string.h ****        *  characters in the range [__k1,__k2) are inserted.  If the
 1726:/usr/include/c++/5/bits/basic_string.h ****        *  length of result exceeds max_size(), length_error is thrown.
+GAS LISTING /tmp/ccXI0aRP.s 			page 65
+
+
 1727:/usr/include/c++/5/bits/basic_string.h ****        *  The value of the string doesn't change if an error is
 1728:/usr/include/c++/5/bits/basic_string.h ****        *  thrown.
 1729:/usr/include/c++/5/bits/basic_string.h ****       */
@@ -3898,11 +3896,11 @@ GAS LISTING /tmp/ccvj55Kg.s 			page 1
 1779:/usr/include/c++/5/bits/basic_string.h **** 				 && __i2 <= end());
 1780:/usr/include/c++/5/bits/basic_string.h **** 	__glibcxx_requires_valid_range(__k1, __k2);
 1781:/usr/include/c++/5/bits/basic_string.h **** 	return this->replace(__i1 - begin(), __i2 - __i1,
-GAS LISTING /tmp/ccvj55Kg.s 			page 66
-
-
 1782:/usr/include/c++/5/bits/basic_string.h **** 			     __k1, __k2 - __k1);
 1783:/usr/include/c++/5/bits/basic_string.h ****       }
+GAS LISTING /tmp/ccXI0aRP.s 			page 66
+
+
 1784:/usr/include/c++/5/bits/basic_string.h **** 
 1785:/usr/include/c++/5/bits/basic_string.h ****       basic_string&
 1786:/usr/include/c++/5/bits/basic_string.h ****       replace(__const_iterator __i1, __const_iterator __i2,
@@ -3958,11 +3956,11 @@ GAS LISTING /tmp/ccvj55Kg.s 			page 1
 1836:/usr/include/c++/5/bits/basic_string.h **** 	_M_replace_dispatch(const_iterator __i1, const_iterator __i2,
 1837:/usr/include/c++/5/bits/basic_string.h **** 			    _InputIterator __k1, _InputIterator __k2,
 1838:/usr/include/c++/5/bits/basic_string.h **** 			    __false_type);
-GAS LISTING /tmp/ccvj55Kg.s 			page 67
-
-
 1839:/usr/include/c++/5/bits/basic_string.h **** 
 1840:/usr/include/c++/5/bits/basic_string.h ****       basic_string&
+GAS LISTING /tmp/ccXI0aRP.s 			page 67
+
+
 1841:/usr/include/c++/5/bits/basic_string.h ****       _M_replace_aux(size_type __pos1, size_type __n1, size_type __n2,
 1842:/usr/include/c++/5/bits/basic_string.h **** 		     _CharT __c);
 1843:/usr/include/c++/5/bits/basic_string.h **** 
@@ -4018,11 +4016,11 @@ GAS LISTING /tmp/ccvj55Kg.s 			page 1
 1893:/usr/include/c++/5/bits/basic_string.h ****        *  happen.
 1894:/usr/include/c++/5/bits/basic_string.h ****       */
 1895:/usr/include/c++/5/bits/basic_string.h ****       const _CharT*
-GAS LISTING /tmp/ccvj55Kg.s 			page 68
-
-
 1896:/usr/include/c++/5/bits/basic_string.h ****       data() const _GLIBCXX_NOEXCEPT
 1897:/usr/include/c++/5/bits/basic_string.h ****       { return _M_data(); }
+GAS LISTING /tmp/ccXI0aRP.s 			page 68
+
+
 1898:/usr/include/c++/5/bits/basic_string.h **** 
 1899:/usr/include/c++/5/bits/basic_string.h ****       /**
 1900:/usr/include/c++/5/bits/basic_string.h ****        *  @brief  Return copy of allocator used to construct this string.
@@ -4078,11 +4076,11 @@ GAS LISTING /tmp/ccvj55Kg.s 			page 1
 1950:/usr/include/c++/5/bits/basic_string.h **** 	return this->find(__s, __pos, traits_type::length(__s));
 1951:/usr/include/c++/5/bits/basic_string.h ****       }
 1952:/usr/include/c++/5/bits/basic_string.h **** 
-GAS LISTING /tmp/ccvj55Kg.s 			page 69
-
-
 1953:/usr/include/c++/5/bits/basic_string.h ****       /**
 1954:/usr/include/c++/5/bits/basic_string.h ****        *  @brief  Find position of a character.
+GAS LISTING /tmp/ccXI0aRP.s 			page 69
+
+
 1955:/usr/include/c++/5/bits/basic_string.h ****        *  @param __c  Character to locate.
 1956:/usr/include/c++/5/bits/basic_string.h ****        *  @param __pos  Index of character to search from (default 0).
 1957:/usr/include/c++/5/bits/basic_string.h ****        *  @return  Index of first occurrence.
@@ -4138,11 +4136,11 @@ GAS LISTING /tmp/ccvj55Kg.s 			page 1
 2007:/usr/include/c++/5/bits/basic_string.h ****       rfind(const _CharT* __s, size_type __pos = npos) const
 2008:/usr/include/c++/5/bits/basic_string.h ****       {
 2009:/usr/include/c++/5/bits/basic_string.h **** 	__glibcxx_requires_string(__s);
-GAS LISTING /tmp/ccvj55Kg.s 			page 70
-
-
 2010:/usr/include/c++/5/bits/basic_string.h **** 	return this->rfind(__s, __pos, traits_type::length(__s));
 2011:/usr/include/c++/5/bits/basic_string.h ****       }
+GAS LISTING /tmp/ccXI0aRP.s 			page 70
+
+
 2012:/usr/include/c++/5/bits/basic_string.h **** 
 2013:/usr/include/c++/5/bits/basic_string.h ****       /**
 2014:/usr/include/c++/5/bits/basic_string.h ****        *  @brief  Find last position of a character.
@@ -4198,11 +4196,11 @@ GAS LISTING /tmp/ccvj55Kg.s 			page 1
 2064:/usr/include/c++/5/bits/basic_string.h ****        *  characters of @a __s within this string.  If found, returns
 2065:/usr/include/c++/5/bits/basic_string.h ****        *  the index where it was found.  If not found, returns npos.
 2066:/usr/include/c++/5/bits/basic_string.h ****       */
-GAS LISTING /tmp/ccvj55Kg.s 			page 71
-
-
 2067:/usr/include/c++/5/bits/basic_string.h ****       size_type
 2068:/usr/include/c++/5/bits/basic_string.h ****       find_first_of(const _CharT* __s, size_type __pos = 0) const
+GAS LISTING /tmp/ccXI0aRP.s 			page 71
+
+
 2069:/usr/include/c++/5/bits/basic_string.h ****       {
 2070:/usr/include/c++/5/bits/basic_string.h **** 	__glibcxx_requires_string(__s);
 2071:/usr/include/c++/5/bits/basic_string.h **** 	return this->find_first_of(__s, __pos, traits_type::length(__s));
@@ -4258,11 +4256,11 @@ GAS LISTING /tmp/ccvj55Kg.s 			page 1
 2121:/usr/include/c++/5/bits/basic_string.h ****       /**
 2122:/usr/include/c++/5/bits/basic_string.h ****        *  @brief  Find last position of a character of C string.
 2123:/usr/include/c++/5/bits/basic_string.h ****        *  @param __s  C string containing characters to locate.
-GAS LISTING /tmp/ccvj55Kg.s 			page 72
-
-
 2124:/usr/include/c++/5/bits/basic_string.h ****        *  @param __pos  Index of character to search back from (default end).
 2125:/usr/include/c++/5/bits/basic_string.h ****        *  @return  Index of last occurrence.
+GAS LISTING /tmp/ccXI0aRP.s 			page 72
+
+
 2126:/usr/include/c++/5/bits/basic_string.h ****        *
 2127:/usr/include/c++/5/bits/basic_string.h ****        *  Starting from @a __pos, searches backward for one of the
 2128:/usr/include/c++/5/bits/basic_string.h ****        *  characters of @a __s within this string.  If found, returns
@@ -4318,11 +4316,11 @@ GAS LISTING /tmp/ccvj55Kg.s 			page 1
 2178:/usr/include/c++/5/bits/basic_string.h ****        *  this string.  If found, returns the index where it was
 2179:/usr/include/c++/5/bits/basic_string.h ****        *  found.  If not found, returns npos.
 2180:/usr/include/c++/5/bits/basic_string.h ****       */
-GAS LISTING /tmp/ccvj55Kg.s 			page 73
-
-
 2181:/usr/include/c++/5/bits/basic_string.h ****       size_type
 2182:/usr/include/c++/5/bits/basic_string.h ****       find_first_not_of(const _CharT* __s, size_type __pos,
+GAS LISTING /tmp/ccXI0aRP.s 			page 73
+
+
 2183:/usr/include/c++/5/bits/basic_string.h **** 			size_type __n) const;
 2184:/usr/include/c++/5/bits/basic_string.h **** 
 2185:/usr/include/c++/5/bits/basic_string.h ****       /**
@@ -4378,11 +4376,11 @@ GAS LISTING /tmp/ccvj55Kg.s 			page 1
 2235:/usr/include/c++/5/bits/basic_string.h ****        *  @param __pos  Index of character to search back from.
 2236:/usr/include/c++/5/bits/basic_string.h ****        *  @param __n  Number of characters from s to consider.
 2237:/usr/include/c++/5/bits/basic_string.h ****        *  @return  Index of last occurrence.
-GAS LISTING /tmp/ccvj55Kg.s 			page 74
-
-
 2238:/usr/include/c++/5/bits/basic_string.h ****        *
 2239:/usr/include/c++/5/bits/basic_string.h ****        *  Starting from @a __pos, searches backward for a character not
+GAS LISTING /tmp/ccXI0aRP.s 			page 74
+
+
 2240:/usr/include/c++/5/bits/basic_string.h ****        *  contained in the first @a __n characters of @a __s within this string.
 2241:/usr/include/c++/5/bits/basic_string.h ****        *  If found, returns the index where it was found.  If not found,
 2242:/usr/include/c++/5/bits/basic_string.h ****        *  returns npos.
@@ -4438,11 +4436,11 @@ GAS LISTING /tmp/ccvj55Kg.s 			page 1
 2292:/usr/include/c++/5/bits/basic_string.h ****       substr(size_type __pos = 0, size_type __n = npos) const
 2293:/usr/include/c++/5/bits/basic_string.h ****       { return basic_string(*this,
 2294:/usr/include/c++/5/bits/basic_string.h **** 			    _M_check(__pos, "basic_string::substr"), __n); }
-GAS LISTING /tmp/ccvj55Kg.s 			page 75
-
-
 2295:/usr/include/c++/5/bits/basic_string.h **** 
 2296:/usr/include/c++/5/bits/basic_string.h ****       /**
+GAS LISTING /tmp/ccXI0aRP.s 			page 75
+
+
 2297:/usr/include/c++/5/bits/basic_string.h ****        *  @brief  Compare to a string.
 2298:/usr/include/c++/5/bits/basic_string.h ****        *  @param __str  String to compare against.
 2299:/usr/include/c++/5/bits/basic_string.h ****        *  @return  Integer < 0, 0, or > 0.
@@ -4498,11 +4496,11 @@ GAS LISTING /tmp/ccvj55Kg.s 			page 1
 2349:/usr/include/c++/5/bits/basic_string.h ****        *  @param __str  String to compare against.
 2350:/usr/include/c++/5/bits/basic_string.h ****        *  @param __pos2  Index of first character of substring of str.
 2351:/usr/include/c++/5/bits/basic_string.h ****        *  @param __n2  Number of characters in substring of str.
-GAS LISTING /tmp/ccvj55Kg.s 			page 76
-
-
 2352:/usr/include/c++/5/bits/basic_string.h ****        *  @return  Integer < 0, 0, or > 0.
 2353:/usr/include/c++/5/bits/basic_string.h ****        *
+GAS LISTING /tmp/ccXI0aRP.s 			page 76
+
+
 2354:/usr/include/c++/5/bits/basic_string.h ****        *  Form the substring of this string from the @a __n1
 2355:/usr/include/c++/5/bits/basic_string.h ****        *  characters starting at @a __pos1.  Form the substring of @a
 2356:/usr/include/c++/5/bits/basic_string.h ****        *  __str from the @a __n2 characters starting at @a __pos2.
@@ -4558,11 +4556,11 @@ GAS LISTING /tmp/ccvj55Kg.s 			page 1
 2406:/usr/include/c++/5/bits/basic_string.h ****        *  traits::compare(substring.data(),__s,rlen).  If the result of
 2407:/usr/include/c++/5/bits/basic_string.h ****        *  the comparison is nonzero returns it, otherwise the shorter
 2408:/usr/include/c++/5/bits/basic_string.h ****        *  one is ordered first.
-GAS LISTING /tmp/ccvj55Kg.s 			page 77
-
-
 2409:/usr/include/c++/5/bits/basic_string.h ****       */
 2410:/usr/include/c++/5/bits/basic_string.h ****       int
+GAS LISTING /tmp/ccXI0aRP.s 			page 77
+
+
 2411:/usr/include/c++/5/bits/basic_string.h ****       compare(size_type __pos, size_type __n1, const _CharT* __s) const;
 2412:/usr/include/c++/5/bits/basic_string.h **** 
 2413:/usr/include/c++/5/bits/basic_string.h ****       /**
@@ -4618,11 +4616,11 @@ GAS LISTING /tmp/ccvj55Kg.s 			page 1
 2463:/usr/include/c++/5/bits/basic_string.h ****    *  @doctodo
 2464:/usr/include/c++/5/bits/basic_string.h ****    *
 2465:/usr/include/c++/5/bits/basic_string.h ****    *
-GAS LISTING /tmp/ccvj55Kg.s 			page 78
-
-
 2466:/usr/include/c++/5/bits/basic_string.h ****    *  Documentation?  What's that?
 2467:/usr/include/c++/5/bits/basic_string.h ****    *  Nathan Myers <ncm@cantrip.org>.
+GAS LISTING /tmp/ccXI0aRP.s 			page 78
+
+
 2468:/usr/include/c++/5/bits/basic_string.h ****    *
 2469:/usr/include/c++/5/bits/basic_string.h ****    *  A string looks like this:
 2470:/usr/include/c++/5/bits/basic_string.h ****    *
@@ -4678,11 +4676,11 @@ GAS LISTING /tmp/ccvj55Kg.s 			page 1
 2520:/usr/include/c++/5/bits/basic_string.h ****       typedef typename _CharT_alloc_type::const_reference   const_reference;
 2521:/usr/include/c++/5/bits/basic_string.h ****       typedef typename _CharT_alloc_type::pointer	    pointer;
 2522:/usr/include/c++/5/bits/basic_string.h ****       typedef typename _CharT_alloc_type::const_pointer	    const_pointer;
-GAS LISTING /tmp/ccvj55Kg.s 			page 79
-
-
 2523:/usr/include/c++/5/bits/basic_string.h ****       typedef __gnu_cxx::__normal_iterator<pointer, basic_string>  iterator;
 2524:/usr/include/c++/5/bits/basic_string.h ****       typedef __gnu_cxx::__normal_iterator<const_pointer, basic_string>
+GAS LISTING /tmp/ccXI0aRP.s 			page 79
+
+
 2525:/usr/include/c++/5/bits/basic_string.h ****                                                             const_iterator;
 2526:/usr/include/c++/5/bits/basic_string.h ****       typedef std::reverse_iterator<const_iterator>	const_reverse_iterator;
 2527:/usr/include/c++/5/bits/basic_string.h ****       typedef std::reverse_iterator<iterator>		    reverse_iterator;
@@ -4738,11 +4736,11 @@ GAS LISTING /tmp/ccvj55Kg.s 			page 1
 2577:/usr/include/c++/5/bits/basic_string.h ****         _S_empty_rep() _GLIBCXX_NOEXCEPT
 2578:/usr/include/c++/5/bits/basic_string.h ****         { 
 2579:/usr/include/c++/5/bits/basic_string.h **** 	  // NB: Mild hack to avoid strict-aliasing warnings.  Note that
-GAS LISTING /tmp/ccvj55Kg.s 			page 80
-
-
 2580:/usr/include/c++/5/bits/basic_string.h **** 	  // _S_empty_rep_storage is never modified and the punning should
 2581:/usr/include/c++/5/bits/basic_string.h **** 	  // be reasonably safe in this case.
+GAS LISTING /tmp/ccXI0aRP.s 			page 80
+
+
 2582:/usr/include/c++/5/bits/basic_string.h **** 	  void* __p = reinterpret_cast<void*>(&_S_empty_rep_storage);
 2583:/usr/include/c++/5/bits/basic_string.h **** 	  return *reinterpret_cast<_Rep*>(__p);
 2584:/usr/include/c++/5/bits/basic_string.h **** 	}
@@ -4798,11 +4796,11 @@ GAS LISTING /tmp/ccvj55Kg.s 			page 1
 2634:/usr/include/c++/5/bits/basic_string.h **** 	{
 2635:/usr/include/c++/5/bits/basic_string.h **** #if _GLIBCXX_FULLY_DYNAMIC_STRING == 0
 2636:/usr/include/c++/5/bits/basic_string.h **** 	  if (__builtin_expect(this != &_S_empty_rep(), false))
-GAS LISTING /tmp/ccvj55Kg.s 			page 81
-
-
 2637:/usr/include/c++/5/bits/basic_string.h **** #endif
 2638:/usr/include/c++/5/bits/basic_string.h **** 	    {
+GAS LISTING /tmp/ccXI0aRP.s 			page 81
+
+
 2639:/usr/include/c++/5/bits/basic_string.h **** 	      // Be race-detector-friendly.  For more info see bits/c++config.
 2640:/usr/include/c++/5/bits/basic_string.h **** 	      _GLIBCXX_SYNCHRONIZATION_HAPPENS_BEFORE(&this->_M_refcount);
 2641:/usr/include/c++/5/bits/basic_string.h **** 	      if (__gnu_cxx::__exchange_and_add_dispatch(&this->_M_refcount,
@@ -4858,11 +4856,11 @@ GAS LISTING /tmp/ccvj55Kg.s 			page 1
 2691:/usr/include/c++/5/bits/basic_string.h ****       _CharT*
 2692:/usr/include/c++/5/bits/basic_string.h ****       _M_data(_CharT* __p) _GLIBCXX_NOEXCEPT
 2693:/usr/include/c++/5/bits/basic_string.h ****       { return (_M_dataplus._M_p = __p); }
-GAS LISTING /tmp/ccvj55Kg.s 			page 82
-
-
 2694:/usr/include/c++/5/bits/basic_string.h **** 
 2695:/usr/include/c++/5/bits/basic_string.h ****       _Rep*
+GAS LISTING /tmp/ccXI0aRP.s 			page 82
+
+
 2696:/usr/include/c++/5/bits/basic_string.h ****       _M_rep() const _GLIBCXX_NOEXCEPT
 2697:/usr/include/c++/5/bits/basic_string.h ****       { return &((reinterpret_cast<_Rep*> (_M_data()))[-1]); }
 2698:/usr/include/c++/5/bits/basic_string.h **** 
@@ -4918,11 +4916,11 @@ GAS LISTING /tmp/ccvj55Kg.s 			page 1
 2748:/usr/include/c++/5/bits/basic_string.h **** 
 2749:/usr/include/c++/5/bits/basic_string.h ****       // When __n = 1 way faster than the general multichar
 2750:/usr/include/c++/5/bits/basic_string.h ****       // traits_type::copy/move/assign.
-GAS LISTING /tmp/ccvj55Kg.s 			page 83
-
-
 2751:/usr/include/c++/5/bits/basic_string.h ****       static void
 2752:/usr/include/c++/5/bits/basic_string.h ****       _M_copy(_CharT* __d, const _CharT* __s, size_type __n) _GLIBCXX_NOEXCEPT
+GAS LISTING /tmp/ccXI0aRP.s 			page 83
+
+
 2753:/usr/include/c++/5/bits/basic_string.h ****       {
 2754:/usr/include/c++/5/bits/basic_string.h **** 	if (__n == 1)
 2755:/usr/include/c++/5/bits/basic_string.h **** 	  traits_type::assign(*__d, *__s);
@@ -4978,11 +4976,11 @@ GAS LISTING /tmp/ccvj55Kg.s 			page 1
 2805:/usr/include/c++/5/bits/basic_string.h ****       { _M_copy(__p, __k1, __k2 - __k1); }
 2806:/usr/include/c++/5/bits/basic_string.h **** 
 2807:/usr/include/c++/5/bits/basic_string.h ****       static int
-GAS LISTING /tmp/ccvj55Kg.s 			page 84
-
-
 2808:/usr/include/c++/5/bits/basic_string.h ****       _S_compare(size_type __n1, size_type __n2) _GLIBCXX_NOEXCEPT
 2809:/usr/include/c++/5/bits/basic_string.h ****       {
+GAS LISTING /tmp/ccXI0aRP.s 			page 84
+
+
 2810:/usr/include/c++/5/bits/basic_string.h **** 	const difference_type __d = difference_type(__n1 - __n2);
 2811:/usr/include/c++/5/bits/basic_string.h **** 
 2812:/usr/include/c++/5/bits/basic_string.h **** 	if (__d > __gnu_cxx::__numeric_traits<int>::__max)
@@ -5038,11 +5036,11 @@ GAS LISTING /tmp/ccvj55Kg.s 			page 1
 2862:/usr/include/c++/5/bits/basic_string.h ****        */
 2863:/usr/include/c++/5/bits/basic_string.h ****       basic_string(const basic_string& __str, size_type __pos,
 2864:/usr/include/c++/5/bits/basic_string.h **** 		   size_type __n = npos);
-GAS LISTING /tmp/ccvj55Kg.s 			page 85
-
-
 2865:/usr/include/c++/5/bits/basic_string.h ****       /**
 2866:/usr/include/c++/5/bits/basic_string.h ****        *  @brief  Construct string as copy of a substring.
+GAS LISTING /tmp/ccXI0aRP.s 			page 85
+
+
 2867:/usr/include/c++/5/bits/basic_string.h ****        *  @param  __str  Source string.
 2868:/usr/include/c++/5/bits/basic_string.h ****        *  @param  __pos  Index of first character to copy from.
 2869:/usr/include/c++/5/bits/basic_string.h ****        *  @param  __n  Number of characters to copy.
@@ -5098,11 +5096,11 @@ GAS LISTING /tmp/ccvj55Kg.s 			page 1
 2919:/usr/include/c++/5/bits/basic_string.h ****       }
 2920:/usr/include/c++/5/bits/basic_string.h **** 
 2921:/usr/include/c++/5/bits/basic_string.h ****       /**
-GAS LISTING /tmp/ccvj55Kg.s 			page 86
-
-
 2922:/usr/include/c++/5/bits/basic_string.h ****        *  @brief  Construct string from an initializer %list.
 2923:/usr/include/c++/5/bits/basic_string.h ****        *  @param  __l  std::initializer_list of characters.
+GAS LISTING /tmp/ccXI0aRP.s 			page 86
+
+
 2924:/usr/include/c++/5/bits/basic_string.h ****        *  @param  __a  Allocator to use (default is default allocator).
 2925:/usr/include/c++/5/bits/basic_string.h ****        */
 2926:/usr/include/c++/5/bits/basic_string.h ****       basic_string(initializer_list<_CharT> __l, const _Alloc& __a = _Alloc());
@@ -5158,11 +5156,11 @@ GAS LISTING /tmp/ccvj55Kg.s 			page 1
 2976:/usr/include/c++/5/bits/basic_string.h ****       /**
 2977:/usr/include/c++/5/bits/basic_string.h ****        *  @brief  Move assign the value of @a str to this string.
 2978:/usr/include/c++/5/bits/basic_string.h ****        *  @param  __str  Source string.
-GAS LISTING /tmp/ccvj55Kg.s 			page 87
-
-
 2979:/usr/include/c++/5/bits/basic_string.h ****        *
 2980:/usr/include/c++/5/bits/basic_string.h ****        *  The contents of @a str are moved into this string (without copying).
+GAS LISTING /tmp/ccXI0aRP.s 			page 87
+
+
 2981:/usr/include/c++/5/bits/basic_string.h ****        *  @a str is a valid, but unspecified string.
 2982:/usr/include/c++/5/bits/basic_string.h ****        **/
 2983:/usr/include/c++/5/bits/basic_string.h ****       // PR 58265, this should be noexcept.
@@ -5218,11 +5216,11 @@ GAS LISTING /tmp/ccvj55Kg.s 			page 1
 3033:/usr/include/c++/5/bits/basic_string.h ****       }
 3034:/usr/include/c++/5/bits/basic_string.h **** 
 3035:/usr/include/c++/5/bits/basic_string.h ****       /**
-GAS LISTING /tmp/ccvj55Kg.s 			page 88
-
-
 3036:/usr/include/c++/5/bits/basic_string.h ****        *  Returns a read-only (constant) iterator that points one past the
 3037:/usr/include/c++/5/bits/basic_string.h ****        *  last character in the %string.
+GAS LISTING /tmp/ccXI0aRP.s 			page 88
+
+
 3038:/usr/include/c++/5/bits/basic_string.h ****        */
 3039:/usr/include/c++/5/bits/basic_string.h ****       const_iterator
 3040:/usr/include/c++/5/bits/basic_string.h ****       end() const _GLIBCXX_NOEXCEPT
@@ -5278,11 +5276,11 @@ GAS LISTING /tmp/ccvj55Kg.s 			page 1
 3090:/usr/include/c++/5/bits/basic_string.h ****        *  last character in the %string.
 3091:/usr/include/c++/5/bits/basic_string.h ****        */
 3092:/usr/include/c++/5/bits/basic_string.h ****       const_iterator
-GAS LISTING /tmp/ccvj55Kg.s 			page 89
-
-
 3093:/usr/include/c++/5/bits/basic_string.h ****       cend() const noexcept
 3094:/usr/include/c++/5/bits/basic_string.h ****       { return const_iterator(this->_M_data() + this->size()); }
+GAS LISTING /tmp/ccXI0aRP.s 			page 89
+
+
 3095:/usr/include/c++/5/bits/basic_string.h **** 
 3096:/usr/include/c++/5/bits/basic_string.h ****       /**
 3097:/usr/include/c++/5/bits/basic_string.h ****        *  Returns a read-only (constant) reverse iterator that points
@@ -5338,11 +5336,11 @@ GAS LISTING /tmp/ccvj55Kg.s 			page 1
 3147:/usr/include/c++/5/bits/basic_string.h ****       /**
 3148:/usr/include/c++/5/bits/basic_string.h ****        *  @brief  Resizes the %string to the specified number of characters.
 3149:/usr/include/c++/5/bits/basic_string.h ****        *  @param  __n  Number of characters the %string should contain.
-GAS LISTING /tmp/ccvj55Kg.s 			page 90
-
-
 3150:/usr/include/c++/5/bits/basic_string.h ****        *
 3151:/usr/include/c++/5/bits/basic_string.h ****        *  This function will resize the %string to the specified length.  If
+GAS LISTING /tmp/ccXI0aRP.s 			page 90
+
+
 3152:/usr/include/c++/5/bits/basic_string.h ****        *  the new size is smaller than the %string's current size the %string
 3153:/usr/include/c++/5/bits/basic_string.h ****        *  is truncated, otherwise the %string is extended and new characters
 3154:/usr/include/c++/5/bits/basic_string.h ****        *  are default-constructed.  For basic types such as char, this means
@@ -5398,11 +5396,11 @@ GAS LISTING /tmp/ccvj55Kg.s 			page 1
 3204:/usr/include/c++/5/bits/basic_string.h ****       /**
 3205:/usr/include/c++/5/bits/basic_string.h ****        *  Erases the string, making it empty.
 3206:/usr/include/c++/5/bits/basic_string.h ****        */
-GAS LISTING /tmp/ccvj55Kg.s 			page 91
-
-
 3207:/usr/include/c++/5/bits/basic_string.h ****       // PR 56166: this should not throw.
 3208:/usr/include/c++/5/bits/basic_string.h ****       void
+GAS LISTING /tmp/ccXI0aRP.s 			page 91
+
+
 3209:/usr/include/c++/5/bits/basic_string.h ****       clear()
 3210:/usr/include/c++/5/bits/basic_string.h ****       { _M_mutate(0, this->size(), 0); }
 3211:/usr/include/c++/5/bits/basic_string.h **** 
@@ -5458,11 +5456,11 @@ GAS LISTING /tmp/ccvj55Kg.s 			page 1
 3261:/usr/include/c++/5/bits/basic_string.h ****        *  @brief  Provides access to the data contained in the %string.
 3262:/usr/include/c++/5/bits/basic_string.h ****        *  @param __n The index of the character to access.
 3263:/usr/include/c++/5/bits/basic_string.h ****        *  @return  Read-only (const) reference to the character.
-GAS LISTING /tmp/ccvj55Kg.s 			page 92
-
-
 3264:/usr/include/c++/5/bits/basic_string.h ****        *  @throw  std::out_of_range  If @a n is an invalid index.
 3265:/usr/include/c++/5/bits/basic_string.h ****        *
+GAS LISTING /tmp/ccXI0aRP.s 			page 92
+
+
 3266:/usr/include/c++/5/bits/basic_string.h ****        *  This function provides for safer data access.  The parameter is
 3267:/usr/include/c++/5/bits/basic_string.h ****        *  first checked that it is in the range of the string.  The function
 3268:/usr/include/c++/5/bits/basic_string.h ****        *  throws out_of_range if the check fails.
@@ -5518,11 +5516,11 @@ GAS LISTING /tmp/ccvj55Kg.s 			page 1
 3318:/usr/include/c++/5/bits/basic_string.h ****       front() const _GLIBCXX_NOEXCEPT
 3319:/usr/include/c++/5/bits/basic_string.h ****       { return operator[](0); }
 3320:/usr/include/c++/5/bits/basic_string.h **** 
-GAS LISTING /tmp/ccvj55Kg.s 			page 93
-
-
 3321:/usr/include/c++/5/bits/basic_string.h ****       /**
 3322:/usr/include/c++/5/bits/basic_string.h ****        *  Returns a read/write reference to the data at the last
+GAS LISTING /tmp/ccXI0aRP.s 			page 93
+
+
 3323:/usr/include/c++/5/bits/basic_string.h ****        *  element of the %string.
 3324:/usr/include/c++/5/bits/basic_string.h ****        */
 3325:/usr/include/c++/5/bits/basic_string.h ****       reference
@@ -5578,11 +5576,11 @@ GAS LISTING /tmp/ccvj55Kg.s 			page 1
 3375:/usr/include/c++/5/bits/basic_string.h ****       basic_string&
 3376:/usr/include/c++/5/bits/basic_string.h ****       operator+=(initializer_list<_CharT> __l)
 3377:/usr/include/c++/5/bits/basic_string.h ****       { return this->append(__l.begin(), __l.size()); }
-GAS LISTING /tmp/ccvj55Kg.s 			page 94
-
-
 3378:/usr/include/c++/5/bits/basic_string.h **** #endif // C++11
 3379:/usr/include/c++/5/bits/basic_string.h **** 
+GAS LISTING /tmp/ccXI0aRP.s 			page 94
+
+
 3380:/usr/include/c++/5/bits/basic_string.h ****       /**
 3381:/usr/include/c++/5/bits/basic_string.h ****        *  @brief  Append a string to this string.
 3382:/usr/include/c++/5/bits/basic_string.h ****        *  @param __str  The string to append.
@@ -5638,11 +5636,11 @@ GAS LISTING /tmp/ccvj55Kg.s 			page 1
 3432:/usr/include/c++/5/bits/basic_string.h ****        */
 3433:/usr/include/c++/5/bits/basic_string.h ****       basic_string&
 3434:/usr/include/c++/5/bits/basic_string.h ****       append(size_type __n, _CharT __c);
-GAS LISTING /tmp/ccvj55Kg.s 			page 95
-
-
 3435:/usr/include/c++/5/bits/basic_string.h **** 
 3436:/usr/include/c++/5/bits/basic_string.h **** #if __cplusplus >= 201103L
+GAS LISTING /tmp/ccXI0aRP.s 			page 95
+
+
 3437:/usr/include/c++/5/bits/basic_string.h ****       /**
 3438:/usr/include/c++/5/bits/basic_string.h ****        *  @brief  Append an initializer_list of characters.
 3439:/usr/include/c++/5/bits/basic_string.h ****        *  @param __l  The initializer_list of characters to append.
@@ -5698,11 +5696,11 @@ GAS LISTING /tmp/ccvj55Kg.s 			page 1
 3489:/usr/include/c++/5/bits/basic_string.h ****        *  @a __str is a valid, but unspecified string.
 3490:/usr/include/c++/5/bits/basic_string.h ****        */
 3491:/usr/include/c++/5/bits/basic_string.h ****       // PR 58265, this should be noexcept.
-GAS LISTING /tmp/ccvj55Kg.s 			page 96
-
-
 3492:/usr/include/c++/5/bits/basic_string.h ****       basic_string&
 3493:/usr/include/c++/5/bits/basic_string.h ****       assign(basic_string&& __str)
+GAS LISTING /tmp/ccXI0aRP.s 			page 96
+
+
 3494:/usr/include/c++/5/bits/basic_string.h ****       {
 3495:/usr/include/c++/5/bits/basic_string.h **** 	this->swap(__str);
 3496:/usr/include/c++/5/bits/basic_string.h **** 	return *this;
@@ -5758,11 +5756,11 @@ GAS LISTING /tmp/ccvj55Kg.s 			page 1
 3546:/usr/include/c++/5/bits/basic_string.h ****       }
 3547:/usr/include/c++/5/bits/basic_string.h **** 
 3548:/usr/include/c++/5/bits/basic_string.h ****       /**
-GAS LISTING /tmp/ccvj55Kg.s 			page 97
-
-
 3549:/usr/include/c++/5/bits/basic_string.h ****        *  @brief  Set value to multiple characters.
 3550:/usr/include/c++/5/bits/basic_string.h ****        *  @param __n  Length of the resulting string.
+GAS LISTING /tmp/ccXI0aRP.s 			page 97
+
+
 3551:/usr/include/c++/5/bits/basic_string.h ****        *  @param __c  The character to use.
 3552:/usr/include/c++/5/bits/basic_string.h ****        *  @return  Reference to this string.
 3553:/usr/include/c++/5/bits/basic_string.h ****        *
@@ -5818,11 +5816,11 @@ GAS LISTING /tmp/ccvj55Kg.s 			page 1
 3603:/usr/include/c++/5/bits/basic_string.h ****        *  @brief  Insert a range of characters.
 3604:/usr/include/c++/5/bits/basic_string.h ****        *  @param __p  Iterator referencing location in string to insert at.
 3605:/usr/include/c++/5/bits/basic_string.h ****        *  @param __beg  Start of range.
-GAS LISTING /tmp/ccvj55Kg.s 			page 98
-
-
 3606:/usr/include/c++/5/bits/basic_string.h ****        *  @param __end  End of range.
 3607:/usr/include/c++/5/bits/basic_string.h ****        *  @throw  std::length_error  If new length exceeds @c max_size().
+GAS LISTING /tmp/ccXI0aRP.s 			page 98
+
+
 3608:/usr/include/c++/5/bits/basic_string.h ****        *
 3609:/usr/include/c++/5/bits/basic_string.h ****        *  Inserts characters in range [__beg,__end).  If adding
 3610:/usr/include/c++/5/bits/basic_string.h ****        *  characters causes the length to exceed max_size(),
@@ -5878,11 +5876,11 @@ GAS LISTING /tmp/ccvj55Kg.s 			page 1
 3660:/usr/include/c++/5/bits/basic_string.h ****        *
 3661:/usr/include/c++/5/bits/basic_string.h ****        *  Starting at @a pos1, insert @a __n character of @a __str
 3662:/usr/include/c++/5/bits/basic_string.h ****        *  beginning with @a __pos2.  If adding characters causes the
-GAS LISTING /tmp/ccvj55Kg.s 			page 99
-
-
 3663:/usr/include/c++/5/bits/basic_string.h ****        *  length to exceed max_size(), length_error is thrown.  If @a
 3664:/usr/include/c++/5/bits/basic_string.h ****        *  __pos1 is beyond the end of this string or @a __pos2 is
+GAS LISTING /tmp/ccXI0aRP.s 			page 99
+
+
 3665:/usr/include/c++/5/bits/basic_string.h ****        *  beyond the end of @a __str, out_of_range is thrown.  The
 3666:/usr/include/c++/5/bits/basic_string.h ****        *  value of the string doesn't change if an error is thrown.
 3667:/usr/include/c++/5/bits/basic_string.h ****       */
@@ -5938,11 +5936,11 @@ GAS LISTING /tmp/ccvj55Kg.s 			page 1
 3717:/usr/include/c++/5/bits/basic_string.h ****        *  @brief  Insert multiple characters.
 3718:/usr/include/c++/5/bits/basic_string.h ****        *  @param __pos  Index in string to insert at.
 3719:/usr/include/c++/5/bits/basic_string.h ****        *  @param __n  Number of characters to insert
-GAS LISTING /tmp/ccvj55Kg.s 			page 100
-
-
 3720:/usr/include/c++/5/bits/basic_string.h ****        *  @param __c  The character to insert.
 3721:/usr/include/c++/5/bits/basic_string.h ****        *  @return  Reference to this string.
+GAS LISTING /tmp/ccXI0aRP.s 			page 100
+
+
 3722:/usr/include/c++/5/bits/basic_string.h ****        *  @throw  std::length_error  If new length exceeds @c max_size().
 3723:/usr/include/c++/5/bits/basic_string.h ****        *  @throw  std::out_of_range  If @a __pos is beyond the end of this
 3724:/usr/include/c++/5/bits/basic_string.h ****        *  string.
@@ -5998,11 +5996,11 @@ GAS LISTING /tmp/ccvj55Kg.s 			page 1
 3774:/usr/include/c++/5/bits/basic_string.h ****       */
 3775:/usr/include/c++/5/bits/basic_string.h ****       basic_string&
 3776:/usr/include/c++/5/bits/basic_string.h ****       erase(size_type __pos = 0, size_type __n = npos)
-GAS LISTING /tmp/ccvj55Kg.s 			page 101
-
-
 3777:/usr/include/c++/5/bits/basic_string.h ****       { 
 3778:/usr/include/c++/5/bits/basic_string.h **** 	_M_mutate(_M_check(__pos, "basic_string::erase"),
+GAS LISTING /tmp/ccXI0aRP.s 			page 101
+
+
 3779:/usr/include/c++/5/bits/basic_string.h **** 		  _M_limit(__pos, __n), size_type(0));
 3780:/usr/include/c++/5/bits/basic_string.h **** 	return *this;
 3781:/usr/include/c++/5/bits/basic_string.h ****       }
@@ -6058,11 +6056,11 @@ GAS LISTING /tmp/ccvj55Kg.s 			page 1
 3831:/usr/include/c++/5/bits/basic_string.h ****        *  @throw  std::out_of_range  If @a pos is beyond the end of this
 3832:/usr/include/c++/5/bits/basic_string.h ****        *  string.
 3833:/usr/include/c++/5/bits/basic_string.h ****        *  @throw  std::length_error  If new length exceeds @c max_size().
-GAS LISTING /tmp/ccvj55Kg.s 			page 102
-
-
 3834:/usr/include/c++/5/bits/basic_string.h ****        *
 3835:/usr/include/c++/5/bits/basic_string.h ****        *  Removes the characters in the range [__pos,__pos+__n) from
+GAS LISTING /tmp/ccXI0aRP.s 			page 102
+
+
 3836:/usr/include/c++/5/bits/basic_string.h ****        *  this string.  In place, the value of @a __str is inserted.
 3837:/usr/include/c++/5/bits/basic_string.h ****        *  If @a __pos is beyond end of string, out_of_range is thrown.
 3838:/usr/include/c++/5/bits/basic_string.h ****        *  If the length of the result exceeds max_size(), length_error
@@ -6118,11 +6116,11 @@ GAS LISTING /tmp/ccvj55Kg.s 			page 1
 3888:/usr/include/c++/5/bits/basic_string.h ****       */
 3889:/usr/include/c++/5/bits/basic_string.h ****       basic_string&
 3890:/usr/include/c++/5/bits/basic_string.h ****       replace(size_type __pos, size_type __n1, const _CharT* __s,
-GAS LISTING /tmp/ccvj55Kg.s 			page 103
-
-
 3891:/usr/include/c++/5/bits/basic_string.h **** 	      size_type __n2);
 3892:/usr/include/c++/5/bits/basic_string.h **** 
+GAS LISTING /tmp/ccXI0aRP.s 			page 103
+
+
 3893:/usr/include/c++/5/bits/basic_string.h ****       /**
 3894:/usr/include/c++/5/bits/basic_string.h ****        *  @brief  Replace characters with value of a C string.
 3895:/usr/include/c++/5/bits/basic_string.h ****        *  @param __pos  Index of first character to replace.
@@ -6178,11 +6176,11 @@ GAS LISTING /tmp/ccvj55Kg.s 			page 1
 3945:/usr/include/c++/5/bits/basic_string.h ****        *
 3946:/usr/include/c++/5/bits/basic_string.h ****        *  Removes the characters in the range [__i1,__i2).  In place,
 3947:/usr/include/c++/5/bits/basic_string.h ****        *  the value of @a __str is inserted.  If the length of result
-GAS LISTING /tmp/ccvj55Kg.s 			page 104
-
-
 3948:/usr/include/c++/5/bits/basic_string.h ****        *  exceeds max_size(), length_error is thrown.  The value of
 3949:/usr/include/c++/5/bits/basic_string.h ****        *  the string doesn't change if an error is thrown.
+GAS LISTING /tmp/ccXI0aRP.s 			page 104
+
+
 3950:/usr/include/c++/5/bits/basic_string.h ****       */
 3951:/usr/include/c++/5/bits/basic_string.h ****       basic_string&
 3952:/usr/include/c++/5/bits/basic_string.h ****       replace(iterator __i1, iterator __i2, const basic_string& __str)
@@ -6238,11 +6236,11 @@ GAS LISTING /tmp/ccvj55Kg.s 			page 1
 4002:/usr/include/c++/5/bits/basic_string.h ****        *  @param __n  Number of characters to insert.
 4003:/usr/include/c++/5/bits/basic_string.h ****        *  @param __c  Character to insert.
 4004:/usr/include/c++/5/bits/basic_string.h ****        *  @return  Reference to this string.
-GAS LISTING /tmp/ccvj55Kg.s 			page 105
-
-
 4005:/usr/include/c++/5/bits/basic_string.h ****        *  @throw  std::length_error  If new length exceeds @c max_size().
 4006:/usr/include/c++/5/bits/basic_string.h ****        *
+GAS LISTING /tmp/ccXI0aRP.s 			page 105
+
+
 4007:/usr/include/c++/5/bits/basic_string.h ****        *  Removes the characters in the range [__i1,__i2).  In place,
 4008:/usr/include/c++/5/bits/basic_string.h ****        *  @a __n copies of @a __c are inserted.  If the length of
 4009:/usr/include/c++/5/bits/basic_string.h ****        *  result exceeds max_size(), length_error is thrown.  The
@@ -6298,11 +6296,11 @@ GAS LISTING /tmp/ccvj55Kg.s 			page 1
 4059:/usr/include/c++/5/bits/basic_string.h ****       basic_string&
 4060:/usr/include/c++/5/bits/basic_string.h ****       replace(iterator __i1, iterator __i2,
 4061:/usr/include/c++/5/bits/basic_string.h **** 	      const _CharT* __k1, const _CharT* __k2)
-GAS LISTING /tmp/ccvj55Kg.s 			page 106
-
-
 4062:/usr/include/c++/5/bits/basic_string.h ****       {
 4063:/usr/include/c++/5/bits/basic_string.h **** 	_GLIBCXX_DEBUG_PEDASSERT(_M_ibegin() <= __i1 && __i1 <= __i2
+GAS LISTING /tmp/ccXI0aRP.s 			page 106
+
+
 4064:/usr/include/c++/5/bits/basic_string.h **** 				 && __i2 <= _M_iend());
 4065:/usr/include/c++/5/bits/basic_string.h **** 	__glibcxx_requires_valid_range(__k1, __k2);
 4066:/usr/include/c++/5/bits/basic_string.h **** 	return this->replace(__i1 - _M_ibegin(), __i2 - __i1,
@@ -6358,11 +6356,11 @@ GAS LISTING /tmp/ccvj55Kg.s 			page 1
 4116:/usr/include/c++/5/bits/basic_string.h ****         { return _M_replace_aux(__i1 - _M_ibegin(), __i2 - __i1, __n, __val); }
 4117:/usr/include/c++/5/bits/basic_string.h **** 
 4118:/usr/include/c++/5/bits/basic_string.h ****       template<class _InputIterator>
-GAS LISTING /tmp/ccvj55Kg.s 			page 107
-
-
 4119:/usr/include/c++/5/bits/basic_string.h **** 	basic_string&
 4120:/usr/include/c++/5/bits/basic_string.h **** 	_M_replace_dispatch(iterator __i1, iterator __i2, _InputIterator __k1,
+GAS LISTING /tmp/ccXI0aRP.s 			page 107
+
+
 4121:/usr/include/c++/5/bits/basic_string.h **** 			    _InputIterator __k2, __false_type);
 4122:/usr/include/c++/5/bits/basic_string.h **** 
 4123:/usr/include/c++/5/bits/basic_string.h ****       basic_string&
@@ -6418,11 +6416,11 @@ GAS LISTING /tmp/ccvj55Kg.s 			page 1
 4173:/usr/include/c++/5/bits/basic_string.h ****         _S_construct(_FwdIterator __beg, _FwdIterator __end, const _Alloc& __a,
 4174:/usr/include/c++/5/bits/basic_string.h **** 		     forward_iterator_tag);
 4175:/usr/include/c++/5/bits/basic_string.h **** 
-GAS LISTING /tmp/ccvj55Kg.s 			page 108
-
-
 4176:/usr/include/c++/5/bits/basic_string.h ****       static _CharT*
 4177:/usr/include/c++/5/bits/basic_string.h ****       _S_construct(size_type __req, _CharT __c, const _Alloc& __a);
+GAS LISTING /tmp/ccXI0aRP.s 			page 108
+
+
 4178:/usr/include/c++/5/bits/basic_string.h **** 
 4179:/usr/include/c++/5/bits/basic_string.h ****     public:
 4180:/usr/include/c++/5/bits/basic_string.h **** 
@@ -6478,11 +6476,11 @@ GAS LISTING /tmp/ccvj55Kg.s 			page 1
 4230:/usr/include/c++/5/bits/basic_string.h ****       */
 4231:/usr/include/c++/5/bits/basic_string.h ****       allocator_type
 4232:/usr/include/c++/5/bits/basic_string.h ****       get_allocator() const _GLIBCXX_NOEXCEPT
-GAS LISTING /tmp/ccvj55Kg.s 			page 109
-
-
 4233:/usr/include/c++/5/bits/basic_string.h ****       { return _M_dataplus; }
 4234:/usr/include/c++/5/bits/basic_string.h **** 
+GAS LISTING /tmp/ccXI0aRP.s 			page 109
+
+
 4235:/usr/include/c++/5/bits/basic_string.h ****       /**
 4236:/usr/include/c++/5/bits/basic_string.h ****        *  @brief  Find position of a C substring.
 4237:/usr/include/c++/5/bits/basic_string.h ****        *  @param __s  C string to locate.
@@ -6538,11 +6536,11 @@ GAS LISTING /tmp/ccvj55Kg.s 			page 1
 4287:/usr/include/c++/5/bits/basic_string.h ****        *
 4288:/usr/include/c++/5/bits/basic_string.h ****        *  Starting from @a __pos, searches forward for @a __c within
 4289:/usr/include/c++/5/bits/basic_string.h ****        *  this string.  If found, returns the index where it was
-GAS LISTING /tmp/ccvj55Kg.s 			page 110
-
-
 4290:/usr/include/c++/5/bits/basic_string.h ****        *  found.  If not found, returns npos.
 4291:/usr/include/c++/5/bits/basic_string.h ****       */
+GAS LISTING /tmp/ccXI0aRP.s 			page 110
+
+
 4292:/usr/include/c++/5/bits/basic_string.h ****       size_type
 4293:/usr/include/c++/5/bits/basic_string.h ****       find(_CharT __c, size_type __pos = 0) const _GLIBCXX_NOEXCEPT;
 4294:/usr/include/c++/5/bits/basic_string.h **** 
@@ -6598,11 +6596,11 @@ GAS LISTING /tmp/ccvj55Kg.s 			page 1
 4344:/usr/include/c++/5/bits/basic_string.h ****        *  @param __c  Character to locate.
 4345:/usr/include/c++/5/bits/basic_string.h ****        *  @param __pos  Index of character to search back from (default end).
 4346:/usr/include/c++/5/bits/basic_string.h ****        *  @return  Index of last occurrence.
-GAS LISTING /tmp/ccvj55Kg.s 			page 111
-
-
 4347:/usr/include/c++/5/bits/basic_string.h ****        *
 4348:/usr/include/c++/5/bits/basic_string.h ****        *  Starting from @a __pos, searches backward for @a __c within
+GAS LISTING /tmp/ccXI0aRP.s 			page 111
+
+
 4349:/usr/include/c++/5/bits/basic_string.h ****        *  this string.  If found, returns the index where it was
 4350:/usr/include/c++/5/bits/basic_string.h ****        *  found.  If not found, returns npos.
 4351:/usr/include/c++/5/bits/basic_string.h ****       */
@@ -6658,11 +6656,11 @@ GAS LISTING /tmp/ccvj55Kg.s 			page 1
 4401:/usr/include/c++/5/bits/basic_string.h ****       }
 4402:/usr/include/c++/5/bits/basic_string.h **** 
 4403:/usr/include/c++/5/bits/basic_string.h ****       /**
-GAS LISTING /tmp/ccvj55Kg.s 			page 112
-
-
 4404:/usr/include/c++/5/bits/basic_string.h ****        *  @brief  Find position of a character.
 4405:/usr/include/c++/5/bits/basic_string.h ****        *  @param __c  Character to locate.
+GAS LISTING /tmp/ccXI0aRP.s 			page 112
+
+
 4406:/usr/include/c++/5/bits/basic_string.h ****        *  @param __pos  Index of character to search from (default 0).
 4407:/usr/include/c++/5/bits/basic_string.h ****        *  @return  Index of first occurrence.
 4408:/usr/include/c++/5/bits/basic_string.h ****        *
@@ -6718,11 +6716,11 @@ GAS LISTING /tmp/ccvj55Kg.s 			page 1
 4458:/usr/include/c++/5/bits/basic_string.h ****        *  the index where it was found.  If not found, returns npos.
 4459:/usr/include/c++/5/bits/basic_string.h ****       */
 4460:/usr/include/c++/5/bits/basic_string.h ****       size_type
-GAS LISTING /tmp/ccvj55Kg.s 			page 113
-
-
 4461:/usr/include/c++/5/bits/basic_string.h ****       find_last_of(const _CharT* __s, size_type __pos = npos) const
 4462:/usr/include/c++/5/bits/basic_string.h ****       {
+GAS LISTING /tmp/ccXI0aRP.s 			page 113
+
+
 4463:/usr/include/c++/5/bits/basic_string.h **** 	__glibcxx_requires_string(__s);
 4464:/usr/include/c++/5/bits/basic_string.h **** 	return this->find_last_of(__s, __pos, traits_type::length(__s));
 4465:/usr/include/c++/5/bits/basic_string.h ****       }
@@ -6778,11 +6776,11 @@ GAS LISTING /tmp/ccvj55Kg.s 			page 1
 4515:/usr/include/c++/5/bits/basic_string.h ****        *  @brief  Find position of a character not in C string.
 4516:/usr/include/c++/5/bits/basic_string.h ****        *  @param __s  C string containing characters to avoid.
 4517:/usr/include/c++/5/bits/basic_string.h ****        *  @param __pos  Index of character to search from (default 0).
-GAS LISTING /tmp/ccvj55Kg.s 			page 114
-
-
 4518:/usr/include/c++/5/bits/basic_string.h ****        *  @return  Index of first occurrence.
 4519:/usr/include/c++/5/bits/basic_string.h ****        *
+GAS LISTING /tmp/ccXI0aRP.s 			page 114
+
+
 4520:/usr/include/c++/5/bits/basic_string.h ****        *  Starting from @a __pos, searches forward for a character not
 4521:/usr/include/c++/5/bits/basic_string.h ****        *  contained in @a __s within this string.  If found, returns
 4522:/usr/include/c++/5/bits/basic_string.h ****        *  the index where it was found.  If not found, returns npos.
@@ -6838,11 +6836,11 @@ GAS LISTING /tmp/ccvj55Kg.s 			page 1
 4572:/usr/include/c++/5/bits/basic_string.h ****       */
 4573:/usr/include/c++/5/bits/basic_string.h ****       size_type
 4574:/usr/include/c++/5/bits/basic_string.h ****       find_last_not_of(const _CharT* __s, size_type __pos,
-GAS LISTING /tmp/ccvj55Kg.s 			page 115
-
-
 4575:/usr/include/c++/5/bits/basic_string.h **** 		       size_type __n) const;
 4576:/usr/include/c++/5/bits/basic_string.h ****       /**
+GAS LISTING /tmp/ccXI0aRP.s 			page 115
+
+
 4577:/usr/include/c++/5/bits/basic_string.h ****        *  @brief  Find last position of a character not in C string.
 4578:/usr/include/c++/5/bits/basic_string.h ****        *  @param __s  C string containing characters to avoid.
 4579:/usr/include/c++/5/bits/basic_string.h ****        *  @param __pos  Index of character to search back from (default end).
@@ -6898,11 +6896,11 @@ GAS LISTING /tmp/ccvj55Kg.s 			page 1
 4629:/usr/include/c++/5/bits/basic_string.h ****        *
 4630:/usr/include/c++/5/bits/basic_string.h ****        *  Returns an integer < 0 if this string is ordered before @a
 4631:/usr/include/c++/5/bits/basic_string.h ****        *  __str, 0 if their values are equivalent, or > 0 if this
-GAS LISTING /tmp/ccvj55Kg.s 			page 116
-
-
 4632:/usr/include/c++/5/bits/basic_string.h ****        *  string is ordered after @a __str.  Determines the effective
 4633:/usr/include/c++/5/bits/basic_string.h ****        *  length rlen of the strings to compare as the smallest of
+GAS LISTING /tmp/ccXI0aRP.s 			page 116
+
+
 4634:/usr/include/c++/5/bits/basic_string.h ****        *  size() and str.size().  The function then compares the two
 4635:/usr/include/c++/5/bits/basic_string.h ****        *  strings by calling traits::compare(data(), str.data(),rlen).
 4636:/usr/include/c++/5/bits/basic_string.h ****        *  If the result of the comparison is nonzero returns it,
@@ -6958,11 +6956,11 @@ GAS LISTING /tmp/ccvj55Kg.s 			page 1
 4686:/usr/include/c++/5/bits/basic_string.h ****        *  Returns an integer < 0 if this substring is ordered before
 4687:/usr/include/c++/5/bits/basic_string.h ****        *  the substring of @a __str, 0 if their values are equivalent,
 4688:/usr/include/c++/5/bits/basic_string.h ****        *  or > 0 if this substring is ordered after the substring of
-GAS LISTING /tmp/ccvj55Kg.s 			page 117
-
-
 4689:/usr/include/c++/5/bits/basic_string.h ****        *  @a __str.  Determines the effective length rlen of the
 4690:/usr/include/c++/5/bits/basic_string.h ****        *  strings to compare as the smallest of the lengths of the
+GAS LISTING /tmp/ccXI0aRP.s 			page 117
+
+
 4691:/usr/include/c++/5/bits/basic_string.h ****        *  substrings.  The function then compares the two strings by
 4692:/usr/include/c++/5/bits/basic_string.h ****        *  calling
 4693:/usr/include/c++/5/bits/basic_string.h ****        *  traits::compare(substring.data(),str.substr(pos2,n2).data(),rlen).
@@ -7018,11 +7016,11 @@ GAS LISTING /tmp/ccvj55Kg.s 			page 1
 4743:/usr/include/c++/5/bits/basic_string.h ****        *  @brief  Compare substring against a character %array.
 4744:/usr/include/c++/5/bits/basic_string.h ****        *  @param __pos  Index of first character of substring.
 4745:/usr/include/c++/5/bits/basic_string.h ****        *  @param __n1  Number of characters in substring.
-GAS LISTING /tmp/ccvj55Kg.s 			page 118
-
-
 4746:/usr/include/c++/5/bits/basic_string.h ****        *  @param __s  character %array to compare against.
 4747:/usr/include/c++/5/bits/basic_string.h ****        *  @param __n2  Number of characters of s.
+GAS LISTING /tmp/ccXI0aRP.s 			page 118
+
+
 4748:/usr/include/c++/5/bits/basic_string.h ****        *  @return  Integer < 0, 0, or > 0.
 4749:/usr/include/c++/5/bits/basic_string.h ****        *
 4750:/usr/include/c++/5/bits/basic_string.h ****        *  Form the substring of this string from the @a __n1
@@ -7078,11 +7076,11 @@ GAS LISTING /tmp/ccvj55Kg.s 			page 1
 4800:/usr/include/c++/5/bits/basic_string.h ****   /**
 4801:/usr/include/c++/5/bits/basic_string.h ****    *  @brief  Concatenate character and string.
 4802:/usr/include/c++/5/bits/basic_string.h ****    *  @param __lhs  First string.
-GAS LISTING /tmp/ccvj55Kg.s 			page 119
-
-
 4803:/usr/include/c++/5/bits/basic_string.h ****    *  @param __rhs  Last string.
 4804:/usr/include/c++/5/bits/basic_string.h ****    *  @return  New string with @a __lhs followed by @a __rhs.
+GAS LISTING /tmp/ccXI0aRP.s 			page 119
+
+
 4805:/usr/include/c++/5/bits/basic_string.h ****    */
 4806:/usr/include/c++/5/bits/basic_string.h ****   template<typename _CharT, typename _Traits, typename _Alloc>
 4807:/usr/include/c++/5/bits/basic_string.h ****     basic_string<_CharT,_Traits,_Alloc>
@@ -7138,11 +7136,11 @@ GAS LISTING /tmp/ccvj55Kg.s 			page 1
 4857:/usr/include/c++/5/bits/basic_string.h ****     inline basic_string<_CharT, _Traits, _Alloc>
 4858:/usr/include/c++/5/bits/basic_string.h ****     operator+(basic_string<_CharT, _Traits, _Alloc>&& __lhs,
 4859:/usr/include/c++/5/bits/basic_string.h **** 	      basic_string<_CharT, _Traits, _Alloc>&& __rhs)
-GAS LISTING /tmp/ccvj55Kg.s 			page 120
-
-
 4860:/usr/include/c++/5/bits/basic_string.h ****     {
 4861:/usr/include/c++/5/bits/basic_string.h ****       const auto __size = __lhs.size() + __rhs.size();
+GAS LISTING /tmp/ccXI0aRP.s 			page 120
+
+
 4862:/usr/include/c++/5/bits/basic_string.h ****       const bool __cond = (__size > __lhs.capacity()
 4863:/usr/include/c++/5/bits/basic_string.h **** 			   && __size <= __rhs.capacity());
 4864:/usr/include/c++/5/bits/basic_string.h ****       return __cond ? std::move(__rhs.insert(0, __lhs))
@@ -7198,11 +7196,11 @@ GAS LISTING /tmp/ccvj55Kg.s 			page 1
 4914:/usr/include/c++/5/bits/basic_string.h **** 
 4915:/usr/include/c++/5/bits/basic_string.h ****   /**
 4916:/usr/include/c++/5/bits/basic_string.h ****    *  @brief  Test equivalence of C string and string.
-GAS LISTING /tmp/ccvj55Kg.s 			page 121
-
-
 4917:/usr/include/c++/5/bits/basic_string.h ****    *  @param __lhs  C string.
 4918:/usr/include/c++/5/bits/basic_string.h ****    *  @param __rhs  String.
+GAS LISTING /tmp/ccXI0aRP.s 			page 121
+
+
 4919:/usr/include/c++/5/bits/basic_string.h ****    *  @return  True if @a __rhs.compare(@a __lhs) == 0.  False otherwise.
 4920:/usr/include/c++/5/bits/basic_string.h ****    */
 4921:/usr/include/c++/5/bits/basic_string.h ****   template<typename _CharT, typename _Traits, typename _Alloc>
@@ -7258,11 +7256,11 @@ GAS LISTING /tmp/ccvj55Kg.s 			page 1
  707              		.cfi_def_cfa_offset 16
  708              		.cfi_offset 6, -16
  709 0001 4889E5   		movq	%rsp, %rbp
-GAS LISTING /tmp/ccvj55Kg.s 			page 122
-
-
  710              		.cfi_def_cfa_register 6
  711 0004 4883EC10 		subq	$16, %rsp
+GAS LISTING /tmp/ccXI0aRP.s 			page 122
+
+
  712 0008 48897DF8 		movq	%rdi, -8(%rbp)
  713              	.LBB5:
   79:/usr/include/c++/5/bits/stl_vector.h ****       : public _Tp_alloc_type
@@ -7318,11 +7316,11 @@ GAS LISTING /tmp/ccvj55Kg.s 			page 1
  759 002b 488B45F8 		movq	-8(%rbp), %rax
  760 002f 488B08   		movq	(%rax), %rcx
  761 0032 488B45F8 		movq	-8(%rbp), %rax
-GAS LISTING /tmp/ccvj55Kg.s 			page 123
-
-
  762 0036 4889CE   		movq	%rcx, %rsi
  763 0039 4889C7   		movq	%rax, %rdi
+GAS LISTING /tmp/ccXI0aRP.s 			page 123
+
+
  764 003c E8000000 		call	_ZNSt12_Vector_baseIN7Decoder12morse_symbolESaIS1_EE13_M_deallocateEPS1_m
  764      00
  161:/usr/include/c++/5/bits/stl_vector.h **** 
@@ -7378,11 +7376,11 @@ GAS LISTING /tmp/ccvj55Kg.s 			page 1
  815              		.file 6 "/usr/include/c++/5/bits/stl_construct.h"
    1:/usr/include/c++/5/bits/stl_construct.h **** // nonstandard construct and destroy functions -*- C++ -*-
    2:/usr/include/c++/5/bits/stl_construct.h **** 
-GAS LISTING /tmp/ccvj55Kg.s 			page 124
-
-
    3:/usr/include/c++/5/bits/stl_construct.h **** // Copyright (C) 2001-2015 Free Software Foundation, Inc.
    4:/usr/include/c++/5/bits/stl_construct.h **** //
+GAS LISTING /tmp/ccXI0aRP.s 			page 124
+
+
    5:/usr/include/c++/5/bits/stl_construct.h **** // This file is part of the GNU ISO C++ Library.  This library is free
    6:/usr/include/c++/5/bits/stl_construct.h **** // software; you can redistribute it and/or modify it under the
    7:/usr/include/c++/5/bits/stl_construct.h **** // terms of the GNU General Public License as published by the
@@ -7438,11 +7436,11 @@ GAS LISTING /tmp/ccvj55Kg.s 			page 1
   57:/usr/include/c++/5/bits/stl_construct.h **** #define _STL_CONSTRUCT_H 1
   58:/usr/include/c++/5/bits/stl_construct.h **** 
   59:/usr/include/c++/5/bits/stl_construct.h **** #include <new>
-GAS LISTING /tmp/ccvj55Kg.s 			page 125
-
-
   60:/usr/include/c++/5/bits/stl_construct.h **** #include <bits/move.h>
   61:/usr/include/c++/5/bits/stl_construct.h **** #include <ext/alloc_traits.h>
+GAS LISTING /tmp/ccXI0aRP.s 			page 125
+
+
   62:/usr/include/c++/5/bits/stl_construct.h **** 
   63:/usr/include/c++/5/bits/stl_construct.h **** namespace std _GLIBCXX_VISIBILITY(default)
   64:/usr/include/c++/5/bits/stl_construct.h **** {
@@ -7498,11 +7496,11 @@ GAS LISTING /tmp/ccvj55Kg.s 			page 1
  114:/usr/include/c++/5/bits/stl_construct.h **** 
  115:/usr/include/c++/5/bits/stl_construct.h ****   /**
  116:/usr/include/c++/5/bits/stl_construct.h ****    * Destroy a range of objects.  If the value_type of the object has
-GAS LISTING /tmp/ccvj55Kg.s 			page 126
-
-
  117:/usr/include/c++/5/bits/stl_construct.h ****    * a trivial destructor, the compiler should optimize all of this
  118:/usr/include/c++/5/bits/stl_construct.h ****    * away, otherwise the objects' destructors must be invoked.
+GAS LISTING /tmp/ccXI0aRP.s 			page 126
+
+
  119:/usr/include/c++/5/bits/stl_construct.h ****    */
  120:/usr/include/c++/5/bits/stl_construct.h ****   template<typename _ForwardIterator>
  121:/usr/include/c++/5/bits/stl_construct.h ****     inline void
@@ -7558,11 +7556,11 @@ GAS LISTING /tmp/ccvj55Kg.s 			page 1
  833              		.loc 6 152 0
  834 0027 90       		nop
  835 0028 C9       		leave
-GAS LISTING /tmp/ccvj55Kg.s 			page 127
-
-
  836              		.cfi_def_cfa 7, 8
  837 0029 C3       		ret
+GAS LISTING /tmp/ccXI0aRP.s 			page 127
+
+
  838              		.cfi_endproc
  839              	.LFE2116:
  841              		.section	.text._ZNSaIN7Decoder12morse_symbolEED2Ev,"axG",@progbits,_ZNSaIN7Decoder12morse_symbolEE
@@ -7618,11 +7616,11 @@ GAS LISTING /tmp/ccvj55Kg.s 			page 1
   45:/usr/include/c++/5/bits/allocator.h **** 
   46:/usr/include/c++/5/bits/allocator.h **** #include <bits/c++allocator.h> // Define the base class to std::allocator.
   47:/usr/include/c++/5/bits/allocator.h **** #include <bits/memoryfwd.h>
-GAS LISTING /tmp/ccvj55Kg.s 			page 128
-
-
   48:/usr/include/c++/5/bits/allocator.h **** #if __cplusplus >= 201103L
   49:/usr/include/c++/5/bits/allocator.h **** #include <type_traits>
+GAS LISTING /tmp/ccXI0aRP.s 			page 128
+
+
   50:/usr/include/c++/5/bits/allocator.h **** #endif
   51:/usr/include/c++/5/bits/allocator.h **** 
   52:/usr/include/c++/5/bits/allocator.h **** namespace std _GLIBCXX_VISIBILITY(default)
@@ -7678,11 +7676,11 @@ GAS LISTING /tmp/ccvj55Kg.s 			page 1
  102:/usr/include/c++/5/bits/allocator.h **** 
  103:/usr/include/c++/5/bits/allocator.h ****       template<typename _Tp1>
  104:/usr/include/c++/5/bits/allocator.h ****         struct rebind
-GAS LISTING /tmp/ccvj55Kg.s 			page 129
-
-
  105:/usr/include/c++/5/bits/allocator.h ****         { typedef allocator<_Tp1> other; };
  106:/usr/include/c++/5/bits/allocator.h **** 
+GAS LISTING /tmp/ccXI0aRP.s 			page 129
+
+
  107:/usr/include/c++/5/bits/allocator.h **** #if __cplusplus >= 201103L
  108:/usr/include/c++/5/bits/allocator.h ****       // _GLIBCXX_RESOLVE_LIB_DEFECTS
  109:/usr/include/c++/5/bits/allocator.h ****       // 2103. std::allocator propagate_on_container_move_assignment
@@ -7738,11 +7736,11 @@ GAS LISTING /tmp/ccvj55Kg.s 			page 1
  885 0004 4883EC20 		subq	$32, %rsp
  886 0008 48897DF8 		movq	%rdi, -8(%rbp)
  887 000c 488975F0 		movq	%rsi, -16(%rbp)
-GAS LISTING /tmp/ccvj55Kg.s 			page 130
-
-
  888 0010 488955E8 		movq	%rdx, -24(%rbp)
  177:/usr/include/c++/5/bits/stl_vector.h **** 	  _Tr::deallocate(_M_impl, __p, __n);
+GAS LISTING /tmp/ccXI0aRP.s 			page 130
+
+
  889              		.loc 4 177 0
  890 0014 48837DF0 		cmpq	$0, -16(%rbp)
  890      00
@@ -7798,11 +7796,11 @@ GAS LISTING /tmp/ccvj55Kg.s 			page 1
  935              	.LFE2159:
  937              		.section	.text._ZN9__gnu_cxx13new_allocatorIN7Decoder12morse_symbolEED2Ev,"axG",@progbits,_ZN9__gn
  938              		.align 2
-GAS LISTING /tmp/ccvj55Kg.s 			page 131
-
-
  939              		.weak	_ZN9__gnu_cxx13new_allocatorIN7Decoder12morse_symbolEED2Ev
  941              	_ZN9__gnu_cxx13new_allocatorIN7Decoder12morse_symbolEED2Ev:
+GAS LISTING /tmp/ccXI0aRP.s 			page 131
+
+
  942              	.LFB2185:
  943              		.file 8 "/usr/include/c++/5/ext/new_allocator.h"
    1:/usr/include/c++/5/ext/new_allocator.h **** // Allocator that wraps operator new -*- C++ -*-
@@ -7858,11 +7856,11 @@ GAS LISTING /tmp/ccvj55Kg.s 			page 1
   51:/usr/include/c++/5/ext/new_allocator.h ****    *  This is precisely the allocator defined in the C++ Standard. 
   52:/usr/include/c++/5/ext/new_allocator.h ****    *    - all allocation calls operator new
   53:/usr/include/c++/5/ext/new_allocator.h ****    *    - all deallocation calls operator delete
-GAS LISTING /tmp/ccvj55Kg.s 			page 132
-
-
   54:/usr/include/c++/5/ext/new_allocator.h ****    *
   55:/usr/include/c++/5/ext/new_allocator.h ****    *  @tparam  _Tp  Type of allocated object.
+GAS LISTING /tmp/ccXI0aRP.s 			page 132
+
+
   56:/usr/include/c++/5/ext/new_allocator.h ****    */
   57:/usr/include/c++/5/ext/new_allocator.h ****   template<typename _Tp>
   58:/usr/include/c++/5/ext/new_allocator.h ****     class new_allocator
@@ -7918,11 +7916,11 @@ GAS LISTING /tmp/ccvj55Kg.s 			page 1
  967              		.file 9 "/usr/include/c++/5/bits/alloc_traits.h"
    1:/usr/include/c++/5/bits/alloc_traits.h **** // Allocator traits -*- C++ -*-
    2:/usr/include/c++/5/bits/alloc_traits.h **** 
-GAS LISTING /tmp/ccvj55Kg.s 			page 133
-
-
    3:/usr/include/c++/5/bits/alloc_traits.h **** // Copyright (C) 2011-2015 Free Software Foundation, Inc.
    4:/usr/include/c++/5/bits/alloc_traits.h **** //
+GAS LISTING /tmp/ccXI0aRP.s 			page 133
+
+
    5:/usr/include/c++/5/bits/alloc_traits.h **** // This file is part of the GNU ISO C++ Library.  This library is free
    6:/usr/include/c++/5/bits/alloc_traits.h **** // software; you can redistribute it and/or modify it under the
    7:/usr/include/c++/5/bits/alloc_traits.h **** // terms of the GNU General Public License as published by the
@@ -7978,11 +7976,11 @@ GAS LISTING /tmp/ccvj55Kg.s 			page 1
   57:/usr/include/c++/5/bits/alloc_traits.h **** 
   58:/usr/include/c++/5/bits/alloc_traits.h ****   template<typename _Alloc, typename _Tp,
   59:/usr/include/c++/5/bits/alloc_traits.h **** 	   bool = __alloctr_rebind_helper<_Alloc, _Tp>::__type::value>
-GAS LISTING /tmp/ccvj55Kg.s 			page 134
-
-
   60:/usr/include/c++/5/bits/alloc_traits.h ****     struct __alloctr_rebind;
   61:/usr/include/c++/5/bits/alloc_traits.h **** 
+GAS LISTING /tmp/ccXI0aRP.s 			page 134
+
+
   62:/usr/include/c++/5/bits/alloc_traits.h ****   template<typename _Alloc, typename _Tp>
   63:/usr/include/c++/5/bits/alloc_traits.h ****     struct __alloctr_rebind<_Alloc, _Tp, true>
   64:/usr/include/c++/5/bits/alloc_traits.h ****     {
@@ -8038,11 +8036,11 @@ GAS LISTING /tmp/ccvj55Kg.s 			page 1
  114:/usr/include/c++/5/bits/alloc_traits.h ****        * <tt> pointer_traits<pointer>::rebind<const value_type> </tt>
  115:/usr/include/c++/5/bits/alloc_traits.h ****       */
  116:/usr/include/c++/5/bits/alloc_traits.h ****       typedef __const_pointer const_pointer;
-GAS LISTING /tmp/ccvj55Kg.s 			page 135
-
-
  117:/usr/include/c++/5/bits/alloc_traits.h **** 
  118:/usr/include/c++/5/bits/alloc_traits.h **** _GLIBCXX_ALLOC_TR_NESTED_TYPE(void_pointer,
+GAS LISTING /tmp/ccXI0aRP.s 			page 135
+
+
  119:/usr/include/c++/5/bits/alloc_traits.h ****   typename pointer_traits<pointer>::template rebind<void>)
  120:/usr/include/c++/5/bits/alloc_traits.h **** 
  121:/usr/include/c++/5/bits/alloc_traits.h ****       /**
@@ -8098,11 +8096,11 @@ GAS LISTING /tmp/ccvj55Kg.s 			page 1
  171:/usr/include/c++/5/bits/alloc_traits.h ****       typedef __propagate_on_container_copy_assignment
  172:/usr/include/c++/5/bits/alloc_traits.h **** 	propagate_on_container_copy_assignment;
  173:/usr/include/c++/5/bits/alloc_traits.h **** 
-GAS LISTING /tmp/ccvj55Kg.s 			page 136
-
-
  174:/usr/include/c++/5/bits/alloc_traits.h **** _GLIBCXX_ALLOC_TR_NESTED_TYPE(propagate_on_container_move_assignment,
  175:/usr/include/c++/5/bits/alloc_traits.h **** 			      false_type)
+GAS LISTING /tmp/ccXI0aRP.s 			page 136
+
+
  176:/usr/include/c++/5/bits/alloc_traits.h **** 
  177:/usr/include/c++/5/bits/alloc_traits.h ****       /**
  178:/usr/include/c++/5/bits/alloc_traits.h ****        * @brief   How the allocator is propagated on move assignment
@@ -8158,11 +8156,11 @@ GAS LISTING /tmp/ccvj55Kg.s 			page 1
  228:/usr/include/c++/5/bits/alloc_traits.h **** 
  229:/usr/include/c++/5/bits/alloc_traits.h ****       template<typename _Alloc2, typename _UnusedHint,
  230:/usr/include/c++/5/bits/alloc_traits.h **** 	       typename = _Require<__not_<__has_allocate<_Alloc2>>>>
-GAS LISTING /tmp/ccvj55Kg.s 			page 137
-
-
  231:/usr/include/c++/5/bits/alloc_traits.h **** 	static pointer
  232:/usr/include/c++/5/bits/alloc_traits.h **** 	_S_allocate(_Alloc2& __a, size_type __n, _UnusedHint)
+GAS LISTING /tmp/ccXI0aRP.s 			page 137
+
+
  233:/usr/include/c++/5/bits/alloc_traits.h **** 	{ return __a.allocate(__n); }
  234:/usr/include/c++/5/bits/alloc_traits.h **** 
  235:/usr/include/c++/5/bits/alloc_traits.h ****       template<typename _Tp, typename... _Args>
@@ -8218,11 +8216,11 @@ GAS LISTING /tmp/ccvj55Kg.s 			page 1
  285:/usr/include/c++/5/bits/alloc_traits.h **** 	{ __a.destroy(__p); }
  286:/usr/include/c++/5/bits/alloc_traits.h **** 
  287:/usr/include/c++/5/bits/alloc_traits.h ****       template<typename _Tp>
-GAS LISTING /tmp/ccvj55Kg.s 			page 138
-
-
  288:/usr/include/c++/5/bits/alloc_traits.h **** 	static _Require<__not_<__has_destroy<_Tp>>>
  289:/usr/include/c++/5/bits/alloc_traits.h **** 	_S_destroy(_Alloc&, _Tp* __p)
+GAS LISTING /tmp/ccXI0aRP.s 			page 138
+
+
  290:/usr/include/c++/5/bits/alloc_traits.h **** 	{ __p->~_Tp(); }
  291:/usr/include/c++/5/bits/alloc_traits.h **** 
  292:/usr/include/c++/5/bits/alloc_traits.h ****       template<typename _Alloc2>
@@ -8278,11 +8276,11 @@ GAS LISTING /tmp/ccvj55Kg.s 			page 1
  342:/usr/include/c++/5/bits/alloc_traits.h **** 
  343:/usr/include/c++/5/bits/alloc_traits.h ****       template<typename _Alloc2,
  344:/usr/include/c++/5/bits/alloc_traits.h **** 	       typename = _Require<__not_<__has_soccc<_Alloc2>>>>
-GAS LISTING /tmp/ccvj55Kg.s 			page 139
-
-
  345:/usr/include/c++/5/bits/alloc_traits.h **** 	static _Alloc2
  346:/usr/include/c++/5/bits/alloc_traits.h **** 	_S_select(_Alloc2& __a, ...)
+GAS LISTING /tmp/ccXI0aRP.s 			page 139
+
+
  347:/usr/include/c++/5/bits/alloc_traits.h **** 	{ return __a; }
  348:/usr/include/c++/5/bits/alloc_traits.h **** 
  349:/usr/include/c++/5/bits/alloc_traits.h ****     public:
@@ -8338,11 +8336,11 @@ GAS LISTING /tmp/ccvj55Kg.s 			page 1
  980 0014 488B55E8 		movq	-24(%rbp), %rdx
  981 0018 488B4DF0 		movq	-16(%rbp), %rcx
  982 001c 488B45F8 		movq	-8(%rbp), %rax
-GAS LISTING /tmp/ccvj55Kg.s 			page 140
-
-
  983 0020 4889CE   		movq	%rcx, %rsi
  984 0023 4889C7   		movq	%rax, %rdi
+GAS LISTING /tmp/ccXI0aRP.s 			page 140
+
+
  985 0026 E8000000 		call	_ZN9__gnu_cxx13new_allocatorIN7Decoder12morse_symbolEE10deallocateEPS2_m
  985      00
  986 002b 90       		nop
@@ -8398,11 +8396,11 @@ GAS LISTING /tmp/ccvj55Kg.s 			page 1
  1031              		.section	.text._ZN9__gnu_cxx13new_allocatorIN7Decoder12morse_symbolEE10deallocateEPS2_m,"axG",@pro
  1032              		.align 2
  1033              		.weak	_ZN9__gnu_cxx13new_allocatorIN7Decoder12morse_symbolEE10deallocateEPS2_m
-GAS LISTING /tmp/ccvj55Kg.s 			page 141
-
-
  1035              	_ZN9__gnu_cxx13new_allocatorIN7Decoder12morse_symbolEE10deallocateEPS2_m:
  1036              	.LFB2204:
+GAS LISTING /tmp/ccXI0aRP.s 			page 141
+
+
   87:/usr/include/c++/5/ext/new_allocator.h **** 
   88:/usr/include/c++/5/ext/new_allocator.h ****       pointer
   89:/usr/include/c++/5/ext/new_allocator.h ****       address(reference __x) const _GLIBCXX_NOEXCEPT
@@ -8458,11 +8456,11 @@ GAS LISTING /tmp/ccvj55Kg.s 			page 1
    2:/usr/include/c++/5/bits/move.h **** 
    3:/usr/include/c++/5/bits/move.h **** // Copyright (C) 2007-2015 Free Software Foundation, Inc.
    4:/usr/include/c++/5/bits/move.h **** //
-GAS LISTING /tmp/ccvj55Kg.s 			page 142
-
-
    5:/usr/include/c++/5/bits/move.h **** // This file is part of the GNU ISO C++ Library.  This library is free
    6:/usr/include/c++/5/bits/move.h **** // software; you can redistribute it and/or modify it under the
+GAS LISTING /tmp/ccXI0aRP.s 			page 142
+
+
    7:/usr/include/c++/5/bits/move.h **** // terms of the GNU General Public License as published by the
    8:/usr/include/c++/5/bits/move.h **** // Free Software Foundation; either version 3, or (at your option)
    9:/usr/include/c++/5/bits/move.h **** // any later version.
@@ -8518,11 +8516,11 @@ GAS LISTING /tmp/ccvj55Kg.s 			page 1
  1073              		.loc 10 50 0
  1074 0008 488B45F8 		movq	-8(%rbp), %rax
   51:/usr/include/c++/5/bits/move.h ****     }
-GAS LISTING /tmp/ccvj55Kg.s 			page 143
-
-
  1075              		.loc 10 51 0
  1076 000c 5D       		popq	%rbp
+GAS LISTING /tmp/ccXI0aRP.s 			page 143
+
+
  1077              		.cfi_def_cfa 7, 8
  1078 000d C3       		ret
  1079              		.cfi_endproc
@@ -8533,7 +8531,7 @@ GAS LISTING /tmp/ccvj55Kg.s 			page 1
  1086              	_ZN7Decoder12morse_symbolD2Ev:
  1087              	.LFB2208:
   14:Decoder/Decoder.h ****     // Structure for keeping one Morse symbol
-  15:Decoder/Decoder.h ****     struct morse_symbol {
+  15:Decoder/Decoder.h ****     struct MorseSymbol {
  1088              		.loc 2 15 0
  1089              		.cfi_startproc
  1090 0000 55       		pushq	%rbp
@@ -8578,11 +8576,11 @@ GAS LISTING /tmp/ccvj55Kg.s 			page 1
  1128 0004 4883EC10 		subq	$16, %rsp
  1129 0008 48897DF8 		movq	%rdi, -8(%rbp)
   93:/usr/include/c++/5/bits/stl_construct.h **** 
-GAS LISTING /tmp/ccvj55Kg.s 			page 144
-
-
  1130              		.loc 6 93 0
  1131 000c 488B45F8 		movq	-8(%rbp), %rax
+GAS LISTING /tmp/ccXI0aRP.s 			page 144
+
+
  1132 0010 4889C7   		movq	%rax, %rdi
  1133 0013 E8000000 		call	_ZN7Decoder12morse_symbolD1Ev
  1133      00
@@ -8638,11 +8636,11 @@ GAS LISTING /tmp/ccvj55Kg.s 			page 1
   23:/usr/include/c++/5/iostream **** // <http://www.gnu.org/licenses/>.
   24:/usr/include/c++/5/iostream **** 
   25:/usr/include/c++/5/iostream **** /** @file include/iostream
-GAS LISTING /tmp/ccvj55Kg.s 			page 145
-
-
   26:/usr/include/c++/5/iostream ****  *  This is a Standard C++ Library header.
   27:/usr/include/c++/5/iostream ****  */
+GAS LISTING /tmp/ccXI0aRP.s 			page 145
+
+
   28:/usr/include/c++/5/iostream **** 
   29:/usr/include/c++/5/iostream **** //
   30:/usr/include/c++/5/iostream **** // ISO C++ 14882: 27.3  Standard iostream objects
@@ -8698,11 +8696,11 @@ GAS LISTING /tmp/ccvj55Kg.s 			page 1
  1165 033b BA000000 		movl	$__dso_handle, %edx
  1165      00
  1166 0340 BE000000 		movl	$_ZStL8__ioinit, %esi
-GAS LISTING /tmp/ccvj55Kg.s 			page 146
-
-
  1166      00
  1167 0345 BF000000 		movl	$_ZNSt8ios_base4InitD1Ev, %edi
+GAS LISTING /tmp/ccXI0aRP.s 			page 146
+
+
  1167      00
  1168 034a E8000000 		call	__cxa_atexit
  1168      00
@@ -8740,11 +8738,10 @@ GAS LISTING /tmp/ccvj55Kg.s 			page 1
  1200 0000 00000000 		.quad	_GLOBAL__sub_I_main
  1200      00000000 
  1201              		.section	.rodata
- 1202 0091 00000000 		.align 8
- 1202      000000
+ 1202 0075 000000   		.align 8
  1203              	.LC4:
- 1204 0098 00000000 		.long	0
- 1205 009c 65CDCD41 		.long	1104006501
+ 1204 0078 00000000 		.long	0
+ 1205 007c 65CDCD41 		.long	1104006501
  1206              		.text
  1207              	.Letext0:
  1208              		.file 12 "/usr/include/c++/5/bits/stringfwd.h"
@@ -8758,12 +8755,12 @@ GAS LISTING /tmp/ccvj55Kg.s 			page 1
  1216              		.file 20 "/usr/include/c++/5/cstdlib"
  1217              		.file 21 "/usr/include/c++/5/cstdio"
  1218              		.file 22 "/usr/include/c++/5/bits/ptr_traits.h"
-GAS LISTING /tmp/ccvj55Kg.s 			page 147
-
-
  1219              		.file 23 "/usr/include/c++/5/initializer_list"
  1220              		.file 24 "/usr/include/c++/5/system_error"
  1221              		.file 25 "/usr/include/c++/5/bits/ios_base.h"
+GAS LISTING /tmp/ccXI0aRP.s 			page 147
+
+
  1222              		.file 26 "/usr/include/c++/5/cwctype"
  1223              		.file 27 "/usr/include/c++/5/bits/vector.tcc"
  1224              		.file 28 "/usr/include/c++/5/ctime"
@@ -8789,49 +8786,49 @@ GAS LISTING /tmp/ccvj55Kg.s 			page 1
  1244              		.file 48 "/usr/include/_G_config.h"
  1245              		.file 49 "/usr/include/wctype.h"
  1246              		.file 50 "/usr/include/c++/5/bits/stl_pair.h"
-GAS LISTING /tmp/ccvj55Kg.s 			page 148
+GAS LISTING /tmp/ccXI0aRP.s 			page 148
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 main.cpp
-     /tmp/ccvj55Kg.s:7      .rodata:0000000000000000 _ZStL19piecewise_construct
+     /tmp/ccXI0aRP.s:7      .rodata:0000000000000000 _ZStL19piecewise_construct
                              .bss:0000000000000000 _ZStL8__ioinit
-     /tmp/ccvj55Kg.s:15     .text._ZNSt6chrono8durationIlSt5ratioILl1ELl1000000000EEEC1IlvEERKT_:0000000000000000 _ZNSt6chrono8durationIlSt5ratioILl1ELl1000000000EEEC1IlvEERKT_
-     /tmp/ccvj55Kg.s:45     .text._ZNKSt6chrono8durationIlSt5ratioILl1ELl1000000000EEE5countEv:0000000000000000 _ZNKSt6chrono8durationIlSt5ratioILl1ELl1000000000EEE5countEv
-     /tmp/ccvj55Kg.s:68     .text._ZNKSt6chrono10time_pointINS_3_V212system_clockENS_8durationIlSt5ratioILl1ELl1000000000EEEEE16time_since_epochEv:0000000000000000 _ZNKSt6chrono10time_pointINS_3_V212system_clockENS_8durationIlSt5ratioILl1ELl1000000000EEEEE16time_since_epochEv
-     /tmp/ccvj55Kg.s:91     .text._ZN7DecoderD2Ev:0000000000000000 _ZN7DecoderD2Ev
-     /tmp/ccvj55Kg.s:617    .text._ZNSt6vectorIN7Decoder12morse_symbolESaIS1_EED2Ev:0000000000000000 _ZNSt6vectorIN7Decoder12morse_symbolESaIS1_EED1Ev
-     /tmp/ccvj55Kg.s:91     .text._ZN7DecoderD2Ev:0000000000000000 _ZN7DecoderD1Ev
-     /tmp/ccvj55Kg.s:121    .text._ZNSt6chronomiIlSt5ratioILl1ELl1000000000EElS2_EENSt11common_typeIJNS_8durationIT_T0_EENS4_IT1_T2_EEEE4typeERKS7_RKSA_:0000000000000000 _ZNSt6chronomiIlSt5ratioILl1ELl1000000000EElS2_EENSt11common_typeIJNS_8durationIT_T0_EENS4_IT1_T2_EEEE4typeERKS7_RKSA_
-     /tmp/ccvj55Kg.s:121    .text._ZNSt6chronomiIlSt5ratioILl1ELl1000000000EElS2_EENSt11common_typeIJNS_8durationIT_T0_EENS4_IT1_T2_EEEE4typeERKS7_RKSA_:0000000000000000 _ZNSt6chronomiIlSt5ratioILl1ELl1000000000EElS2_EENSt11common_typeIINS_8durationIT_T0_EENS4_IT1_T2_EEEE4typeERKS7_RKSA_
-     /tmp/ccvj55Kg.s:181    .text._ZNSt6chronomiINS_3_V212system_clockENS_8durationIlSt5ratioILl1ELl1000000000EEEES6_EENSt11common_typeIJT0_T1_EE4typeERKNS_10time_pointIT_S8_EERKNSC_ISD_S9_EE:0000000000000000 _ZNSt6chronomiINS_3_V212system_clockENS_8durationIlSt5ratioILl1ELl1000000000EEEES6_EENSt11common_typeIJT0_T1_EE4typeERKNS_10time_pointIT_S8_EERKNSC_ISD_S9_EE
-     /tmp/ccvj55Kg.s:181    .text._ZNSt6chronomiINS_3_V212system_clockENS_8durationIlSt5ratioILl1ELl1000000000EEEES6_EENSt11common_typeIJT0_T1_EE4typeERKNS_10time_pointIT_S8_EERKNSC_ISD_S9_EE:0000000000000000 _ZNSt6chronomiINS_3_V212system_clockENS_8durationIlSt5ratioILl1ELl1000000000EEEES6_EENSt11common_typeIIT0_T1_EE4typeERKNS_10time_pointIT_S8_EERKNSC_ISD_S9_EE
-     /tmp/ccvj55Kg.s:227    .text._ZNSt6chrono20__duration_cast_implINS_8durationIlSt5ratioILl1ELl1000000000EEEES2_ILl1ELl1EElLb1ELb1EE6__castIlS3_EES4_RKNS1_IT_T0_EE:0000000000000000 _ZNSt6chrono20__duration_cast_implINS_8durationIlSt5ratioILl1ELl1000000000EEEES2_ILl1ELl1EElLb1ELb1EE6__castIlS3_EES4_RKNS1_IT_T0_EE
-     /tmp/ccvj55Kg.s:268    .text._ZNSt6chrono13duration_castINS_8durationIlSt5ratioILl1ELl1000000000EEEElS3_EENSt9enable_ifIXsrNS_13__is_durationIT_EE5valueES7_E4typeERKNS1_IT0_T1_EE:0000000000000000 _ZNSt6chrono13duration_castINS_8durationIlSt5ratioILl1ELl1000000000EEEElS3_EENSt9enable_ifIXsrNS_13__is_durationIT_EE5valueES7_E4typeERKNS1_IT0_T1_EE
-     /tmp/ccvj55Kg.s:307    .text:0000000000000000 main
-     /tmp/ccvj55Kg.s:671    .text._ZSteqIcSt11char_traitsIcESaIcEEbRKNSt7__cxx1112basic_stringIT_T0_T1_EEPKS5_:0000000000000000 _ZSteqIcSt11char_traitsIcESaIcEEbRKNSt7__cxx1112basic_stringIT_T0_T1_EEPKS5_
-     /tmp/ccvj55Kg.s:617    .text._ZNSt6vectorIN7Decoder12morse_symbolESaIS1_EED2Ev:0000000000000000 _ZNSt6vectorIN7Decoder12morse_symbolESaIS1_EED2Ev
-     /tmp/ccvj55Kg.s:792    .text._ZNSt12_Vector_baseIN7Decoder12morse_symbolESaIS1_EE19_M_get_Tp_allocatorEv:0000000000000000 _ZNSt12_Vector_baseIN7Decoder12morse_symbolESaIS1_EE19_M_get_Tp_allocatorEv
-     /tmp/ccvj55Kg.s:813    .text._ZSt8_DestroyIPN7Decoder12morse_symbolES1_EvT_S3_RSaIT0_E:0000000000000000 _ZSt8_DestroyIPN7Decoder12morse_symbolES1_EvT_S3_RSaIT0_E
-     /tmp/ccvj55Kg.s:732    .text._ZNSt12_Vector_baseIN7Decoder12morse_symbolESaIS1_EED2Ev:0000000000000000 _ZNSt12_Vector_baseIN7Decoder12morse_symbolESaIS1_EED2Ev
-     /tmp/ccvj55Kg.s:702    .text._ZNSt12_Vector_baseIN7Decoder12morse_symbolESaIS1_EE12_Vector_implD2Ev:0000000000000000 _ZNSt12_Vector_baseIN7Decoder12morse_symbolESaIS1_EE12_Vector_implD2Ev
-     /tmp/ccvj55Kg.s:845    .text._ZNSaIN7Decoder12morse_symbolEED2Ev:0000000000000000 _ZNSaIN7Decoder12morse_symbolEED2Ev
-     /tmp/ccvj55Kg.s:702    .text._ZNSt12_Vector_baseIN7Decoder12morse_symbolESaIS1_EE12_Vector_implD2Ev:0000000000000000 _ZNSt12_Vector_baseIN7Decoder12morse_symbolESaIS1_EE12_Vector_implD1Ev
-     /tmp/ccvj55Kg.s:876    .text._ZNSt12_Vector_baseIN7Decoder12morse_symbolESaIS1_EE13_M_deallocateEPS1_m:0000000000000000 _ZNSt12_Vector_baseIN7Decoder12morse_symbolESaIS1_EE13_M_deallocateEPS1_m
-     /tmp/ccvj55Kg.s:732    .text._ZNSt12_Vector_baseIN7Decoder12morse_symbolESaIS1_EED2Ev:0000000000000000 _ZNSt12_Vector_baseIN7Decoder12morse_symbolESaIS1_EED1Ev
-     /tmp/ccvj55Kg.s:911    .text._ZSt8_DestroyIPN7Decoder12morse_symbolEEvT_S3_:0000000000000000 _ZSt8_DestroyIPN7Decoder12morse_symbolEEvT_S3_
-     /tmp/ccvj55Kg.s:941    .text._ZN9__gnu_cxx13new_allocatorIN7Decoder12morse_symbolEED2Ev:0000000000000000 _ZN9__gnu_cxx13new_allocatorIN7Decoder12morse_symbolEED2Ev
-     /tmp/ccvj55Kg.s:845    .text._ZNSaIN7Decoder12morse_symbolEED2Ev:0000000000000000 _ZNSaIN7Decoder12morse_symbolEED1Ev
-     /tmp/ccvj55Kg.s:965    .text._ZNSt16allocator_traitsISaIN7Decoder12morse_symbolEEE10deallocateERS2_PS1_m:0000000000000000 _ZNSt16allocator_traitsISaIN7Decoder12morse_symbolEEE10deallocateERS2_PS1_m
-     /tmp/ccvj55Kg.s:996    .text._ZNSt12_Destroy_auxILb0EE9__destroyIPN7Decoder12morse_symbolEEEvT_S5_:0000000000000000 _ZNSt12_Destroy_auxILb0EE9__destroyIPN7Decoder12morse_symbolEEEvT_S5_
-     /tmp/ccvj55Kg.s:941    .text._ZN9__gnu_cxx13new_allocatorIN7Decoder12morse_symbolEED2Ev:0000000000000000 _ZN9__gnu_cxx13new_allocatorIN7Decoder12morse_symbolEED1Ev
-     /tmp/ccvj55Kg.s:1035   .text._ZN9__gnu_cxx13new_allocatorIN7Decoder12morse_symbolEE10deallocateEPS2_m:0000000000000000 _ZN9__gnu_cxx13new_allocatorIN7Decoder12morse_symbolEE10deallocateEPS2_m
-     /tmp/ccvj55Kg.s:1062   .text._ZSt11__addressofIN7Decoder12morse_symbolEEPT_RS2_:0000000000000000 _ZSt11__addressofIN7Decoder12morse_symbolEEPT_RS2_
-     /tmp/ccvj55Kg.s:1119   .text._ZSt8_DestroyIN7Decoder12morse_symbolEEvPT_:0000000000000000 _ZSt8_DestroyIN7Decoder12morse_symbolEEvPT_
-     /tmp/ccvj55Kg.s:1086   .text._ZN7Decoder12morse_symbolD2Ev:0000000000000000 _ZN7Decoder12morse_symbolD2Ev
-     /tmp/ccvj55Kg.s:1086   .text._ZN7Decoder12morse_symbolD2Ev:0000000000000000 _ZN7Decoder12morse_symbolD1Ev
-     /tmp/ccvj55Kg.s:1143   .text:0000000000000314 _Z41__static_initialization_and_destruction_0ii
-     /tmp/ccvj55Kg.s:1179   .text:0000000000000352 _GLOBAL__sub_I_main
+     /tmp/ccXI0aRP.s:15     .text._ZNSt6chrono8durationIlSt5ratioILl1ELl1000000000EEEC1IlvEERKT_:0000000000000000 _ZNSt6chrono8durationIlSt5ratioILl1ELl1000000000EEEC1IlvEERKT_
+     /tmp/ccXI0aRP.s:45     .text._ZNKSt6chrono8durationIlSt5ratioILl1ELl1000000000EEE5countEv:0000000000000000 _ZNKSt6chrono8durationIlSt5ratioILl1ELl1000000000EEE5countEv
+     /tmp/ccXI0aRP.s:68     .text._ZNKSt6chrono10time_pointINS_3_V212system_clockENS_8durationIlSt5ratioILl1ELl1000000000EEEEE16time_since_epochEv:0000000000000000 _ZNKSt6chrono10time_pointINS_3_V212system_clockENS_8durationIlSt5ratioILl1ELl1000000000EEEEE16time_since_epochEv
+     /tmp/ccXI0aRP.s:91     .text._ZN7DecoderD2Ev:0000000000000000 _ZN7DecoderD2Ev
+     /tmp/ccXI0aRP.s:617    .text._ZNSt6vectorIN7Decoder12morse_symbolESaIS1_EED2Ev:0000000000000000 _ZNSt6vectorIN7Decoder12morse_symbolESaIS1_EED1Ev
+     /tmp/ccXI0aRP.s:91     .text._ZN7DecoderD2Ev:0000000000000000 _ZN7DecoderD1Ev
+     /tmp/ccXI0aRP.s:121    .text._ZNSt6chronomiIlSt5ratioILl1ELl1000000000EElS2_EENSt11common_typeIJNS_8durationIT_T0_EENS4_IT1_T2_EEEE4typeERKS7_RKSA_:0000000000000000 _ZNSt6chronomiIlSt5ratioILl1ELl1000000000EElS2_EENSt11common_typeIJNS_8durationIT_T0_EENS4_IT1_T2_EEEE4typeERKS7_RKSA_
+     /tmp/ccXI0aRP.s:121    .text._ZNSt6chronomiIlSt5ratioILl1ELl1000000000EElS2_EENSt11common_typeIJNS_8durationIT_T0_EENS4_IT1_T2_EEEE4typeERKS7_RKSA_:0000000000000000 _ZNSt6chronomiIlSt5ratioILl1ELl1000000000EElS2_EENSt11common_typeIINS_8durationIT_T0_EENS4_IT1_T2_EEEE4typeERKS7_RKSA_
+     /tmp/ccXI0aRP.s:181    .text._ZNSt6chronomiINS_3_V212system_clockENS_8durationIlSt5ratioILl1ELl1000000000EEEES6_EENSt11common_typeIJT0_T1_EE4typeERKNS_10time_pointIT_S8_EERKNSC_ISD_S9_EE:0000000000000000 _ZNSt6chronomiINS_3_V212system_clockENS_8durationIlSt5ratioILl1ELl1000000000EEEES6_EENSt11common_typeIJT0_T1_EE4typeERKNS_10time_pointIT_S8_EERKNSC_ISD_S9_EE
+     /tmp/ccXI0aRP.s:181    .text._ZNSt6chronomiINS_3_V212system_clockENS_8durationIlSt5ratioILl1ELl1000000000EEEES6_EENSt11common_typeIJT0_T1_EE4typeERKNS_10time_pointIT_S8_EERKNSC_ISD_S9_EE:0000000000000000 _ZNSt6chronomiINS_3_V212system_clockENS_8durationIlSt5ratioILl1ELl1000000000EEEES6_EENSt11common_typeIIT0_T1_EE4typeERKNS_10time_pointIT_S8_EERKNSC_ISD_S9_EE
+     /tmp/ccXI0aRP.s:227    .text._ZNSt6chrono20__duration_cast_implINS_8durationIlSt5ratioILl1ELl1000000000EEEES2_ILl1ELl1EElLb1ELb1EE6__castIlS3_EES4_RKNS1_IT_T0_EE:0000000000000000 _ZNSt6chrono20__duration_cast_implINS_8durationIlSt5ratioILl1ELl1000000000EEEES2_ILl1ELl1EElLb1ELb1EE6__castIlS3_EES4_RKNS1_IT_T0_EE
+     /tmp/ccXI0aRP.s:268    .text._ZNSt6chrono13duration_castINS_8durationIlSt5ratioILl1ELl1000000000EEEElS3_EENSt9enable_ifIXsrNS_13__is_durationIT_EE5valueES7_E4typeERKNS1_IT0_T1_EE:0000000000000000 _ZNSt6chrono13duration_castINS_8durationIlSt5ratioILl1ELl1000000000EEEElS3_EENSt9enable_ifIXsrNS_13__is_durationIT_EE5valueES7_E4typeERKNS1_IT0_T1_EE
+     /tmp/ccXI0aRP.s:307    .text:0000000000000000 main
+     /tmp/ccXI0aRP.s:671    .text._ZSteqIcSt11char_traitsIcESaIcEEbRKNSt7__cxx1112basic_stringIT_T0_T1_EEPKS5_:0000000000000000 _ZSteqIcSt11char_traitsIcESaIcEEbRKNSt7__cxx1112basic_stringIT_T0_T1_EEPKS5_
+     /tmp/ccXI0aRP.s:617    .text._ZNSt6vectorIN7Decoder12morse_symbolESaIS1_EED2Ev:0000000000000000 _ZNSt6vectorIN7Decoder12morse_symbolESaIS1_EED2Ev
+     /tmp/ccXI0aRP.s:792    .text._ZNSt12_Vector_baseIN7Decoder12morse_symbolESaIS1_EE19_M_get_Tp_allocatorEv:0000000000000000 _ZNSt12_Vector_baseIN7Decoder12morse_symbolESaIS1_EE19_M_get_Tp_allocatorEv
+     /tmp/ccXI0aRP.s:813    .text._ZSt8_DestroyIPN7Decoder12morse_symbolES1_EvT_S3_RSaIT0_E:0000000000000000 _ZSt8_DestroyIPN7Decoder12morse_symbolES1_EvT_S3_RSaIT0_E
+     /tmp/ccXI0aRP.s:732    .text._ZNSt12_Vector_baseIN7Decoder12morse_symbolESaIS1_EED2Ev:0000000000000000 _ZNSt12_Vector_baseIN7Decoder12morse_symbolESaIS1_EED2Ev
+     /tmp/ccXI0aRP.s:702    .text._ZNSt12_Vector_baseIN7Decoder12morse_symbolESaIS1_EE12_Vector_implD2Ev:0000000000000000 _ZNSt12_Vector_baseIN7Decoder12morse_symbolESaIS1_EE12_Vector_implD2Ev
+     /tmp/ccXI0aRP.s:845    .text._ZNSaIN7Decoder12morse_symbolEED2Ev:0000000000000000 _ZNSaIN7Decoder12morse_symbolEED2Ev
+     /tmp/ccXI0aRP.s:702    .text._ZNSt12_Vector_baseIN7Decoder12morse_symbolESaIS1_EE12_Vector_implD2Ev:0000000000000000 _ZNSt12_Vector_baseIN7Decoder12morse_symbolESaIS1_EE12_Vector_implD1Ev
+     /tmp/ccXI0aRP.s:876    .text._ZNSt12_Vector_baseIN7Decoder12morse_symbolESaIS1_EE13_M_deallocateEPS1_m:0000000000000000 _ZNSt12_Vector_baseIN7Decoder12morse_symbolESaIS1_EE13_M_deallocateEPS1_m
+     /tmp/ccXI0aRP.s:732    .text._ZNSt12_Vector_baseIN7Decoder12morse_symbolESaIS1_EED2Ev:0000000000000000 _ZNSt12_Vector_baseIN7Decoder12morse_symbolESaIS1_EED1Ev
+     /tmp/ccXI0aRP.s:911    .text._ZSt8_DestroyIPN7Decoder12morse_symbolEEvT_S3_:0000000000000000 _ZSt8_DestroyIPN7Decoder12morse_symbolEEvT_S3_
+     /tmp/ccXI0aRP.s:941    .text._ZN9__gnu_cxx13new_allocatorIN7Decoder12morse_symbolEED2Ev:0000000000000000 _ZN9__gnu_cxx13new_allocatorIN7Decoder12morse_symbolEED2Ev
+     /tmp/ccXI0aRP.s:845    .text._ZNSaIN7Decoder12morse_symbolEED2Ev:0000000000000000 _ZNSaIN7Decoder12morse_symbolEED1Ev
+     /tmp/ccXI0aRP.s:965    .text._ZNSt16allocator_traitsISaIN7Decoder12morse_symbolEEE10deallocateERS2_PS1_m:0000000000000000 _ZNSt16allocator_traitsISaIN7Decoder12morse_symbolEEE10deallocateERS2_PS1_m
+     /tmp/ccXI0aRP.s:996    .text._ZNSt12_Destroy_auxILb0EE9__destroyIPN7Decoder12morse_symbolEEEvT_S5_:0000000000000000 _ZNSt12_Destroy_auxILb0EE9__destroyIPN7Decoder12morse_symbolEEEvT_S5_
+     /tmp/ccXI0aRP.s:941    .text._ZN9__gnu_cxx13new_allocatorIN7Decoder12morse_symbolEED2Ev:0000000000000000 _ZN9__gnu_cxx13new_allocatorIN7Decoder12morse_symbolEED1Ev
+     /tmp/ccXI0aRP.s:1035   .text._ZN9__gnu_cxx13new_allocatorIN7Decoder12morse_symbolEE10deallocateEPS2_m:0000000000000000 _ZN9__gnu_cxx13new_allocatorIN7Decoder12morse_symbolEE10deallocateEPS2_m
+     /tmp/ccXI0aRP.s:1062   .text._ZSt11__addressofIN7Decoder12morse_symbolEEPT_RS2_:0000000000000000 _ZSt11__addressofIN7Decoder12morse_symbolEEPT_RS2_
+     /tmp/ccXI0aRP.s:1119   .text._ZSt8_DestroyIN7Decoder12morse_symbolEEvPT_:0000000000000000 _ZSt8_DestroyIN7Decoder12morse_symbolEEvPT_
+     /tmp/ccXI0aRP.s:1086   .text._ZN7Decoder12morse_symbolD2Ev:0000000000000000 _ZN7Decoder12morse_symbolD2Ev
+     /tmp/ccXI0aRP.s:1086   .text._ZN7Decoder12morse_symbolD2Ev:0000000000000000 _ZN7Decoder12morse_symbolD1Ev
+     /tmp/ccXI0aRP.s:1143   .text:0000000000000314 _Z41__static_initialization_and_destruction_0ii
+     /tmp/ccXI0aRP.s:1179   .text:0000000000000352 _GLOBAL__sub_I_main
                            .group:0000000000000000 _ZN7DecoderD5Ev
                            .group:0000000000000000 _ZNSt6vectorIN7Decoder12morse_symbolESaIS1_EED5Ev
                            .group:0000000000000000 _ZNSt12_Vector_baseIN7Decoder12morse_symbolESaIS1_EE12_Vector_implD5Ev
@@ -8849,7 +8846,7 @@ _ZNSaIcEC1Ev
 _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEC1EPKcRKS3_
 _ZNSaIcED1Ev
 _ZN7Decoder7codeBigENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEbi
-GAS LISTING /tmp/ccvj55Kg.s 			page 149
+GAS LISTING /tmp/ccXI0aRP.s 			page 149
 
 
 _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEED1Ev

@@ -12,40 +12,40 @@ using namespace std;
 
 class Decoder {
     // Structure for keeping one Morse symbol
-    struct morse_symbol {
+    struct MorseSymbol {
         string symbol;
         string code;
 
-        morse_symbol(string symbol, string morse_seq) {
+        MorseSymbol(string symbol, string morseSequence) {
             this->symbol = symbol;
-            this->code = morse_seq;
+            this->code = morseSequence;
         }
     };
 
     // International Morse alphabet
-    vector<morse_symbol> alphabet;
+    vector<MorseSymbol> alphabet;
 
 public:
     Decoder();
 
     // Decodes one symbol
-    string decode_one_symbol(string code);
+    string DecodeOneSymbol(string code);
 
     // Encodes one symbol
-    string encode_one_symbol(string symbol);
+    string EncodeOneSymbol(string symbol);
 
     // Decodes sequence of symbols
-    string decode(string code);
+    string Decode(string code);
 
     // Encodes sequence of symbols
-    string encode(string str);
+    string Encode(string str);
 
     // Splits string by split_by. Returns vector of strings
-    vector<string> split(string str, string split_by);
+    vector<string> Split(string str, string splitBy);
 
     // Decrypts/encrypts one file to other
     // if encrypt is true then encrypts else decrypts
-    void codeBig(string line, bool encrypt, int numberOfTimes);
+    void CodeBig(string line, bool encrypt, int numberOfTimes);
 };
 
 

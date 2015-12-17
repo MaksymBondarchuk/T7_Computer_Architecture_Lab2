@@ -3,6 +3,7 @@
 #include <chrono>
 
 using namespace std;
+using namespace chrono;
 
 int main(int argc, char **argv) {
     if (argc != 2)
@@ -10,20 +11,18 @@ int main(int argc, char **argv) {
 
     auto d = Decoder();
 
-    auto begin = chrono::high_resolution_clock::now();
+    auto begin = high_resolution_clock::now();
 
     string encodeOrDecode = argv[1];
     const int runsNumber = 1000000;
 
     if (encodeOrDecode == "encode")
-        d.codeBig("Example text", true, runsNumber);    // Encode
+        d.CodeBig("12345", true, runsNumber);    // Encode
     else if (encodeOrDecode == "decode")
-        d.codeBig("-...---.-.-.---...-.---...---.---...-.---.---.-...-.---.-.-...-.......---...-...---.-.-.---...---", false, runsNumber);       // Decode
+        d.CodeBig("-.---.---.---.---...-.-.---.---.---...-.-.-.---.---...-.-.-.-.---...-.-.-.-.-", false, runsNumber);
 
-    auto end = chrono::high_resolution_clock::now();
-    auto time = chrono::duration_cast<std::chrono::nanoseconds>(end - begin).count() / 1000000000.0;
+    auto end = high_resolution_clock::now();
+    auto time = duration_cast<nanoseconds>(end - begin).count() / 1000000000.0;
     cout << "Worked for " << time << " s" << endl;
-
-//    cout << d.decode("-.-.-...---.---.---...---.---...-.......---...-...---.-.-.---...---") << endl;
     return 0;
 }

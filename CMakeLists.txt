@@ -13,7 +13,7 @@ add_executable(Encode ${SOURCE_FILES})
 set(SOURCE_FILES main.cpp Decoder/Decoder.cpp Decoder/Decoder.h)
 add_executable(Decode ${SOURCE_FILES})
 
-set(SOURCE_FILES Decoder/Decoder.cpp Decoder/Decoder.h Tests/tests.cpp)
+set(SOURCE_FILES Decoder/Decoder.cpp Decoder/Decoder.h Tests/Tests.cpp)
 add_executable(Tests ${SOURCE_FILES})
 
 

@@ -1152,7 +1152,7 @@ GAS LISTING /tmp/ccEjei2f.s 			page 1
  363      FFFF4042 
  363      0F00
   17:main.cpp      **** 
-  18:main.cpp      ****     if (encodeOrDecode == "encode")
+  18:main.cpp      ****     if (encodeOrDecode == "Encode")
  364              		.loc 3 18 0 discriminator 1
  365 00a2 488D4580 		leaq	-128(%rbp), %rax
  366 00a6 BE000000 		movl	$.LC0, %esi
@@ -1413,7 +1413,7 @@ GAS LISTING /tmp/ccEjei2f.s 			page 1
  526              	.L36:
  527 02c8 4889C3   		movq	%rax, %rbx
  528              	.L30:
-  21:main.cpp      ****         d.codeBig("-...---.-.-.---...-.---...---.---...-.---.---.-...-.---.-.-...-.......---...-...
+  21:main.cpp      ****         d.CodeBig("-...---.-.-.---...-.---...---.---...-.---.---.-...-.---.-.-...-.......---...-...
  529              		.loc 3 21 0 is_stmt 0 discriminator 1
  530 02cb 488D8550 		leaq	-176(%rbp), %rax
  530      FFFFFF
@@ -8533,7 +8533,7 @@ GAS LISTING /tmp/ccEjei2f.s 			page 1
  1086              	_ZN7Decoder12morse_symbolD2Ev:
  1087              	.LFB2208:
   14:Decoder/Decoder.h ****     // Structure for keeping one Morse symbol
-  15:Decoder/Decoder.h ****     struct morse_symbol {
+  15:Decoder/Decoder.h ****     struct MorseSymbol {
  1088              		.loc 2 15 0
  1089              		.cfi_startproc
  1090 0000 55       		pushq	%rbp
