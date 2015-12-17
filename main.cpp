@@ -17,7 +17,7 @@ int main(int argc, char **argv) {
     const int runsNumber = 1000;
 
     if (encodeOrDecode == "encode")
-        d.CodeBig("12345", true, runsNumber);    // Encode
+        d.CodeBig("12345", true, runsNumber);
     else if (encodeOrDecode == "decode")
         d.CodeBig("-.---.---.---.---...-.-.---.---.---...-.-.-.---.---...-.-.-.-.---...-.-.-.-.-", false, runsNumber);
 
