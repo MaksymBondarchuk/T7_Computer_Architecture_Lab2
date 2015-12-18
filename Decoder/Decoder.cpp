@@ -134,7 +134,7 @@ string Decoder::Encode(string str) {
 }
 
 vector<string> Decoder::Split(string str, string splitBy) {
-    vector<string> res = vector<string>();
+    auto res = vector<string>();
 
     size_t pos;
     while ((pos = str.find(splitBy)) != string::npos) {

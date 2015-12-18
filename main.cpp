@@ -1,28 +1,32 @@
 #include <iostream>
 #include "Decoder/Decoder.h"
 #include <chrono>
+#include <algorithm>
 
 using namespace std;
 using namespace chrono;
 
-int main(int argc, char **argv) {
-    if (argc != 2)
-        return 1;
+const int runsNumber = 100;
 
+
+int main(int argc, char **argv) {
     auto d = Decoder();
 
-    auto begin = high_resolution_clock::now();
+    cout << "What do you want program to do. [E/d] ";
+    string choice;
+    cin >> choice;
+    transform(choice.begin(), choice.end(), choice.begin(), ::toupper);
 
-    string encodeOrDecode = argv[1];
-    const int runsNumber = 1000;
+    auto timeBegin = high_resolution_clock::now();
 
-    if (encodeOrDecode == "encode")
-        d.CodeBig("12345", true, runsNumber);
-    else if (encodeOrDecode == "decode")
-        d.CodeBig("-.---.---.---.---...-.-.---.---.---...-.-.-.---.---...-.-.-.-.---...-.-.-.-.-", false, runsNumber);
+    if (choice == "D" || choice == "DECODE")
+        d.CodeBig(
+                "-.-.-...---.---.---...---.---...-.......-.-.-...-.-.-.-...---.---.---...-.---.-...---.......---...-...---.-.-.---...---",
+                false, runsNumber);
+    else
+        d.CodeBig("Some short text", true, runsNumber);
 
-    auto end = high_resolution_clock::now();
-    auto time = duration_cast<nanoseconds>(end - begin).count() / 1000000000.0;
-    cout << "Worked for " << time << " s" << endl;
+    auto time = duration_cast<nanoseconds>(high_resolution_clock::now() - timeBegin).count() / 1000000000.0;
+    cout << "Worked for " << time << "s" << endl;
     return 0;
 }
