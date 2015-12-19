@@ -6,7 +6,7 @@
 #define BOOST_TEST_MODULE Decoder_tests
 
 #include <boost/test/unit_test.hpp>
-#include "../Decoder/Decoder.h"
+#include "../Decoder/Decoder.hpp"
 
 
 BOOST_AUTO_TEST_CASE(testing_Decoder_class) {
