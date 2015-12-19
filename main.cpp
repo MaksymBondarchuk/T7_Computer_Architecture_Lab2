@@ -1,6 +1,5 @@
 #include <iostream>
 #include "Decoder/Decoder.h"
-#include <chrono>
 #include <algorithm>
 
 using namespace std;

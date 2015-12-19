@@ -8,10 +8,7 @@ INCLUDE_DIRECTORIES(${Boost_INCLUDE_DIR})
 
 
 set(SOURCE_FILES main.cpp Decoder/Decoder.cpp Decoder/Decoder.h)
-add_executable(Encode ${SOURCE_FILES})
-
-set(SOURCE_FILES main.cpp Decoder/Decoder.cpp Decoder/Decoder.h)
-add_executable(Decode ${SOURCE_FILES})
+add_executable(Main ${SOURCE_FILES})
 
 set(SOURCE_FILES Decoder/Decoder.cpp Decoder/Decoder.h Tests/Tests.cpp)
 add_executable(Tests ${SOURCE_FILES})

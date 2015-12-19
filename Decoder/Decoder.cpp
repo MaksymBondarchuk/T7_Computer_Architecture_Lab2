@@ -69,6 +69,8 @@ Decoder::Decoder() {
     alphabet.push_back(MorseSymbol("_", "-.-.---.---.-.---"));         // ..--.-
     alphabet.push_back(MorseSymbol("¶", "-.---.-.---.-.-"));           // .-.-..
     alphabet.push_back(MorseSymbol("!", "---.---.---.-"));             // ---.
+
+
 }
 
 string Decoder::EncodeOneSymbol(string symbol) {
@@ -79,7 +81,7 @@ string Decoder::EncodeOneSymbol(string symbol) {
     transform(symbol.begin(), symbol.end(), symbol.begin(), ::toupper);
 
     // Looking for symbol in alphabet
-    for (unsigned int i = 0; i < alphabet.size(); i++)
+    for (auto i = 0; i < alphabet.size(); i++)
         if (alphabet[i].symbol == symbol)
             return alphabet[i].code;
 
@@ -89,7 +91,7 @@ string Decoder::EncodeOneSymbol(string symbol) {
 
 string Decoder::DecodeOneSymbol(string code) {
     // Looking for code in alphabet
-    for (unsigned int i = 0; i < alphabet.size(); i++)
+    for (auto i = 0; i < alphabet.size(); i++)
         if (alphabet[i].code == code)
             return alphabet[i].symbol;
 
@@ -97,22 +99,66 @@ string Decoder::DecodeOneSymbol(string code) {
     return "";
 }
 
+
+void *Decoder::DecodeWord(void *word) {
+    auto wordAsStr = *(string *) word;    // Отримуємо його індекс
+    string result;
+
+    auto letters = Split(wordAsStr, "...");    // 3 units
+    for (auto j = 0; j < letters.size(); j++)
+        result += DecodeOneSymbol(letters[j]);
+    result += ' ';
+
+//    m.lock();
+//    std::lock_guard<std::mutex> lock(m);
+    pthread_mutex_lock(&MCR1);
+    _decodedWords.push_back(result);
+    pthread_mutex_unlock(&MCR1);
+//    m.unlock();
+    return nullptr;
+}
+
+
 string Decoder::Decode(string code) {
     string result;
 
     // Split to words
-    vector<string> words = Split(code, ".......");  // 7 units
-    for (int i = 0; i < words.size(); i++) {
+    auto words = Split(code, ".......");  // 7 units
+
+//    auto threads = vector<pthread_t>(words.size());
+    _decodedWords.clear();
+    for (auto i = 0; i < words.size(); i++) {
         // Split to letters
-        vector<string> letters = Split(words[i], "...");    // 3 units
-        for (int j = 0; j < letters.size(); j++)
+        auto letters = Split(words[i], "...");    // 3 units
+        for (auto j = 0; j < letters.size(); j++)
             result += DecodeOneSymbol(letters[j]);
-        if (i + 1 < words.size())   // If not a lats word
-            result += ' ';
+
+        result += ' ';
     }
+
+    result = result.substr(0, result.size() - 1);
     return result;
 }
 
+string Decoder::DecodeOptimised(string code) {
+    string result;
+
+    // Split to words
+    auto words = Split(code, ".......");  // 7 units
+
+    auto threads = vector<pthread_t>(words.size());
+    _decodedWords.clear();
+    for (auto i = 0; i < threads.size(); i++)
+        pthread_create(&threads[i], NULL, &(Decoder::DecodeWord), (void *) &words[i]);
+
+    for (auto i = 0; i < threads.size(); i++)
+        pthread_join(threads[i], NULL);
+
+    for (auto i = 0; i < _decodedWords.size(); i++)
+        result += _decodedWords[i];
+    result = result.substr(0, result.size() - 1);
+    return result;
+}
 
 string Decoder::Encode(string str) {
     string result;
@@ -158,5 +204,7 @@ void Decoder::CodeBig(string line, bool encrypt, int numberOfTimes) {
         if (encrypt)
             Encode(line);
         else
-            Decode(line);
+            DecodeOptimised(line);
 }
+
+
