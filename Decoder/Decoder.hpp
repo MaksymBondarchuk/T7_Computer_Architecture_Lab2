@@ -191,8 +191,17 @@ public:
             numberOfTimes - 1 <<
             " more times\n";
         else {
-            cout << (optimisedDecode ? "You selected optimised case" : "You selected old case") << endl;
-            cout << "I decoded\n\"" << line << "\"\nto\n\"" << DecodeOptimised(line) << "\"\nAnd will do it " <<
+            string result;
+            if (optimisedDecode) {
+                cout << "You selected optimised case" << endl;
+                result = DecodeOptimised(line);
+            }
+            else {
+                cout << "You selected old case" << endl;
+                result = Decode(line);
+            }
+
+            cout << "I decoded\n\"" << line << "\"\nto\n\"" << result << "\"\nAnd will do it " <<
             numberOfTimes - 1 <<
             " more times\n";
         }
@@ -200,12 +209,14 @@ public:
         if (encrypt)
             for (auto i = 0; i < numberOfTimes - 1; i++)
                 Encode(line);
-        else if (optimisedDecode)
-            for (auto i = 0; i < numberOfTimes - 1; i++)
-                DecodeOptimised(line);
-        else
-            for (auto i = 0; i < numberOfTimes - 1; i++)
-                Decode(line);
+        else {
+            if (optimisedDecode)
+                for (auto i = 0; i < numberOfTimes - 1; i++)
+                    DecodeOptimised(line);
+            else
+                for (auto i = 0; i < numberOfTimes - 1; i++)
+                    Decode(line);
+        }
     }
 
 private:

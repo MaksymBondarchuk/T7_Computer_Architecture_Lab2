@@ -5,7 +5,7 @@
 using namespace std;
 using namespace chrono;
 
-const int runsNumber = 100;
+const int runsNumber = 1000000;
 
 
 int main(int argc, char **argv) {
