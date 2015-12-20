@@ -139,12 +139,12 @@ public:
         for (auto &word: words) {
             // Split to letters
             auto letters = Split(word, "...");    // 3 units
-            for (auto& letter: letters)
+            for (auto &letter: letters)
                 result += DecodeOneSymbol(letter);
             result += ' ';
         }
 
-        result = result.substr(0, result.size() - 1);
+        result = result.substr(0, result.size() - 2);
         return result;
     }
 
@@ -185,52 +185,38 @@ public:
 
     // Decrypts/encrypts one file to other
     // if encrypt is true then encrypts else decrypts
-    void CodeBig(string line, bool encrypt, bool optimisedDecode, int numberOfTimes) {
-        if (encrypt)
-            cout << "I encoded\n\"" << line << "\"\nto\n\"" << Encode(line) << "\"\nAnd will do it " <<
-            numberOfTimes - 1 <<
-            " more times\n";
-        else {
-            string result;
-            if (optimisedDecode) {
-                cout << "You selected optimised case" << endl;
-                result = DecodeOptimised(line);
-            }
-            else {
-                cout << "You selected old case" << endl;
-                result = Decode(line);
-            }
+    void DecodeTest(string line, bool optimisedDecode, int numberOfTimes) {
+        string bigLine;
+        for (auto i = 0; i < numberOfTimes; i++)
+            bigLine += line;
 
-            cout << "I decoded\n\"" << line << "\"\nto\n\"" << result << "\"\nAnd will do it " <<
-            numberOfTimes - 1 <<
-            " more times\n";
+        string result;
+        if (optimisedDecode) {
+            cout << "You selected optimised case\nWorking..." << endl;
+            DecodeOptimised(bigLine);
+            result = DecodeOptimised(line);
         }
-
-        if (encrypt)
-            for (auto i = 0; i < numberOfTimes - 1; i++)
-                Encode(line);
         else {
-            if (optimisedDecode)
-                for (auto i = 0; i < numberOfTimes - 1; i++)
-                    DecodeOptimised(line);
-            else
-                for (auto i = 0; i < numberOfTimes - 1; i++)
-                    Decode(line);
+            cout << "You selected old case\nWorking..." << endl;
+            Decode(bigLine);
+            result = Decode(line);
         }
+        cout << "I decoded\n\"" << line << "\"\nto\n\"" << result << "\"\n" << numberOfTimes << " times\n";
     }
 
 private:
-    void DecodeWord(string word, int idx) {
+    void DecodeWords(int from, int to, int idx) {
         string result;
 
-        auto letters = Split(word, "...");    // 3 units
-        for (auto& letter: letters)
-            result += DecodeOneSymbol(letter);
-        result += ' ';
+        for (auto i = from; i < to; i++) {
+            auto letters = Split(words[i], "...");    // 3 units
+            for (auto &letter: letters)
+                result += DecodeOneSymbol(letter);
+            result += ' ';
+        }
 
         pthread_mutex_lock(&MCR1);
         _decodedWords[idx] = result;
-//        cout << idx << " received " << word << " and given " << result << endl;
         pthread_mutex_unlock(&MCR1);
     }
 
@@ -238,23 +224,31 @@ private:
         string result;
 
         // Split to words
-        auto words = Split(code, ".......");  // 7 units
+        words = Split(code, ".......");  // 7 units
 
-        _decodedWords = vector<string>(words.size());
+        _decodedWords = vector<string>((unsigned long) threadsNumber);
         threads.clear();
-        for (auto i = 0; i < words.size(); i++)
-            threads.push_back(thread(&Decoder::DecodeWord, this, words[i], i));
+
+        // Number of words for an one thread
+        auto range = (int) (words.size() / threadsNumber);
+        for (auto i = 0; i < threadsNumber; i++)
+            threads.push_back(thread(&Decoder::DecodeWords,
+                                     this, i * range, (i + 1) * range, i));
 
         for (auto &t: threads)
             t.join();
 
-        for (auto &word: _decodedWords)
+        for (auto &word: _decodedWords) {
             result += word;
+        }
         result = result.substr(0, result.size() - 1);
         return result;
     }
 
+    // For optimised
     vector<thread> threads;
+    vector<string> words;
+    const int threadsNumber = 10;
 };
 
 

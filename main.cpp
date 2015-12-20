@@ -5,20 +5,27 @@
 using namespace std;
 using namespace chrono;
 
-const int runsNumber = 1000000;
+// Last digit should be 0
+const int runsNumber = 30;
 
 
 int main(int argc, char **argv) {
     auto d = Decoder();
 
-    cout << "What do you want program to do? [E/d] ";
+    cout << "What do you want program to do? [e/D] ";
     string choice;
     cin >> choice;
     transform(choice.begin(), choice.end(), choice.begin(), ::toupper);
 
     auto timeBegin = high_resolution_clock::now();
 
-    if (choice == "D" || choice == "DECODE") {
+    if (choice == "E" || choice == "ENCODE") {
+        cout << "You selected encode" << endl;
+        string lineToEncode = "WORD1 WORD2 WORD3 WORD4 WORD5 WORD6 WORD7 WORD8 WORD9 WORD10";
+        cout << endl << lineToEncode << "\" encoded to \"" <<
+        d.Encode(lineToEncode) << endl;
+    }
+    else {
         cout << "You selected decode" << endl;
         cout << "Do you want run optimised case? [y/N] ";
         cin >> choice;
@@ -33,13 +40,10 @@ int main(int argc, char **argv) {
                 "-.---.---...---.---.---...-.---.-...---.-.-...---.---.-.-.-......."
                 "-.---.---...---.---.---...-.---.-...---.-.-...---.---.---.-.-......."
                 "-.---.---...---.---.---...-.---.-...---.-.-...---.---.---.---.-......."
-                "-.---.---...---.---.---...-.---.-...---.-.-...-.---.---.---.---...---.---.---.---.---";
+                "-.---.---...---.---.---...-.---.-...---.-.-...-.---.---.---.---...---.---.---.---.---.......";
 
-        d.CodeBig(stringForDecode, false, (choice == "Y" || choice == "YES"), runsNumber);
-    }
-    else {
-        cout << "You selected encode" << endl;
-        d.CodeBig("WORD1 WORD2 WORD3 WORD4 WORD5 WORD6 WORD7 WORD8 WORD9 WORD10", true, false, runsNumber);
+        timeBegin = high_resolution_clock::now();
+        d.DecodeTest(stringForDecode, (choice == "Y" || choice == "YES"), runsNumber);
     }
 
     auto time = duration_cast<nanoseconds>(high_resolution_clock::now() - timeBegin).count() / 1000000000.0;

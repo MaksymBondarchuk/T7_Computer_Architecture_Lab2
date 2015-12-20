@@ -10,8 +10,8 @@ INCLUDE_DIRECTORIES(${Boost_INCLUDE_DIR})
 set(SOURCE_FILES main.cpp Decoder/Decoder.hpp)
 add_executable(Main ${SOURCE_FILES})
 
-#set(SOURCE_FILES Decoder/Decoder.hpp Tests/Tests.cpp)
-#add_executable(Tests ${SOURCE_FILES})
-#
-#
-#TARGET_LINK_LIBRARIES(Tests ${Boost_LIBRARIES})
+set(SOURCE_FILES Decoder/Decoder.hpp Tests/Tests.cpp)
+add_executable(Tests ${SOURCE_FILES})
+
+
+TARGET_LINK_LIBRARIES(Tests ${Boost_LIBRARIES})
